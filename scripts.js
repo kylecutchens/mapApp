@@ -207,7 +207,7 @@ function myMap() {
 
     const coordsArr = JSON.parse($('#totalCoords').text());
 
-    for (let i = 1; i < coordsArr.length; i++) {
+    for (let i = 0; i < coordsArr.length; i++) {
 
         const coord = coordsArr[i];
         markers[coord.bcode] = new google.maps.Marker({

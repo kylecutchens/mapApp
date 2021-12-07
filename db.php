@@ -3,7 +3,7 @@
 $con = MySQLi_connect(
    "localhost", //Server host name.
    "root", //Database username.
-   "PC5X6e4qejsK3s", //Database password.
+   "xXdBLnejWq3h9s", //Database password.
    "mapApp" //Database name or anything you would like to call it.
 );
 //Check connection
