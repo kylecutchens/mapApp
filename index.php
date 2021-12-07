@@ -95,8 +95,9 @@
 			</div>
 
 			<button class='clearDirections'> Clear Directions </button>
+			<div>
 			<input id='filterbar' placeholder='Filter by Building Name' value="">
-
+</div>
 
 			<div class="col">
 				<!-- Trigger/Open The Modal -->
