@@ -110,7 +110,7 @@
 
 		/*code for connecting to phpmyadmin database. */
 
-		$con = new mysqli('localhost', 'root', 'xXdBLnejWq3h9s', 'ist470');
+		$con = new mysqli('localhost', 'root', 'xXdBLnejWq3h9s', 'mapApp');
 
 		if ($con->connect_error) {
 			die('could not connect to mySQL: ' . $con->connect_error);
