@@ -63,6 +63,15 @@ body
   font-size: 22px;
 }
 
+#menu li
+{
+  padding: 10px 0;
+  border-bottom-style: solid;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
 #menuToggle input
 {
   display: block;
