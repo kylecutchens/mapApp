@@ -269,7 +269,7 @@ function myMap() {
         });
     });
 
-    $('.filterbar').on('keyup', function () {
+    $('#filterbar').on('keyup', function () {
 
         var input = $('#filterbar').val()
 
