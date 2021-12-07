@@ -251,13 +251,13 @@ function myMap() {
             if (status == 'OK') {
                 clearMarkers();
                 directionsRenderer.setDirections(result);
-                $('#clearDirections').attr('display', 'block');
+                $('#clearDirections').addClass('clearDirections-show');
             }
             
             $('#clearDirections').on('click', function(){
 
                 directionsRenderer.set('directions', null);
-                $('#clearDirections').attr('display', 'hidden');
+                $('#clearDirections').removeClass('clearDirections-show');
 
             });
 

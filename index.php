@@ -90,17 +90,23 @@
 				<img src="https://www.mercer.edu/wp-content/uploads/2019/04/cropped-android-chrome-512x512.png" alt="Mercer Logo" width="80" height="80">
 				<h1> Mercer University Campus Map </h1>
 			</div>
-			<div class="col">
-				<!-- Trigger/Open The Modal -->
-				<button id="btn2" class="modal-button" href="#myModal1">Input Directions Here!</button>
-			</div>
-			<div class="col">
-				<input id='filterbar' placeholder='Filter by Building Name' value="">
-			</div>
 
 			<div class="col">
 				<button id='clearDirections'> Clear Directions </button>
 			</div>
+
+			<div class="col">
+				<input id='filterbar' placeholder='Filter by Building Name' value="">
+			</div>
+			
+			<div class="col">
+				<!-- Trigger/Open The Modal -->
+				<button id="btn2" class="modal-button" href="#myModal1">Input Directions Here!</button>
+			</div>
+
+
+
+
 
 		</div>
 		<!-- The Modal -->
