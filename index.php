@@ -162,7 +162,7 @@
 		$count = $count + 1;
 	}
 
-	echo var_dump(count($r));
+	echo json_encode($r);
 
 	?>
 
