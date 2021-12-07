@@ -164,8 +164,9 @@
 	}
 
 	for ($i=0; $i < 76; $i++) { 
-
-		echo json_encode($r[$i]) . "\n";
+		
+		echo $i . '<br>' . json_encode($r[$i]) . "<br>";
+		
 	}
 
 	?>
