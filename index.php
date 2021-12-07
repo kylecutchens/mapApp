@@ -175,6 +175,10 @@
 		$count = $count + 1;
 	}
 
+	for ($i=0; $i < 76; $i++) { 
+		echo $r[$i];
+	}
+
 	echo 'here';
 	echo json_encode(new ArrayValue($r), JSON_PRETTY_PRINT);
 	echo 'here';
