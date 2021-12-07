@@ -154,11 +154,12 @@ body
   padding: 20px;
   padding-top: 21.5vh;
   border-radius:15px; 
-  background: #fff;
+  background: grey;
   border-style: solid;
   border-color: black;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
+  opacity: .6;
   /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
