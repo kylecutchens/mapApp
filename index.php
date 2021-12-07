@@ -28,7 +28,7 @@
 						<ul id="menu">
 							<ul id="menu">
 								<li><button id="btn" style=font-weight:bold class="modal-button" href="#myModal2"> Building Codes </button></li>
-
+		<!--
 								<div id="myModal2" class="modal">
 									<div class="modal-content">
 										<span class="close">&times;</span>
@@ -81,7 +81,7 @@
 					</div>
 				</nav>
 			</div>
-
+-->
 		<div class="col">
 			<img src="https://www.mercer.edu/wp-content/uploads/2019/04/cropped-android-chrome-512x512.png" alt="Mercer Logo" width="80" height="80">
 			<h1> Mercer University Campus Map </h1>
