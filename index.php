@@ -92,13 +92,13 @@
 			</div>
 
 			<div class="col">
-				<button id='clearDirections'> Clear Directions </button>
+				<button class='clearDirections'> Clear Directions </button>
 			</div>
 
 			<div class="col">
 				<input id='filterbar' placeholder='Filter by Building Name' value="">
 			</div>
-			
+
 			<div class="col">
 				<!-- Trigger/Open The Modal -->
 				<button id="btn2" class="modal-button" href="#myModal1">Input Directions Here!</button>
