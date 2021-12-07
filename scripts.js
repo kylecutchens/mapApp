@@ -249,6 +249,8 @@ function myMap() {
         directionsService.route($request, function (result, status) {
 
             if (status == 'OK') {
+
+                $('.modal').attr('display', 'none');
                 clearMarkers();
                 directionsRenderer.setDirections(result);
                 $('.clearDirections').addClass('clearDirections-show');
@@ -258,6 +260,7 @@ function myMap() {
 
                 directionsRenderer.set('directions', null);
                 $('.clearDirections').removeClass('clearDirections-show');
+                addMarkers();
 
             });
 
