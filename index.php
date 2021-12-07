@@ -36,6 +36,8 @@
 											<div class="col">
 												<h1>Building Names - Code</h1>
 											</div>
+
+											<!--
 											<div class="col">
 												<p>Connell Student Center - CSC</p>
 												<p>Historical Quad - HQ</p>
@@ -71,6 +73,9 @@
 										</div>
 									</div>
 								</div>
+									--->
+
+
 								<a href="https://residencelife.mercer.edu/www/images/MaconCampusMap19-20.jpg" target="_blank">
 									<li class="nlinks">Printable Map</li>
 								</a>
