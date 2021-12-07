@@ -1,15 +1,3 @@
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
-
-
 * {
   box-sizing: border-box;
 }
@@ -248,7 +236,7 @@ body
   color: black;
 }
 
-.epicMealTime{
+#myBtn1{
 display:inline-block;
 padding:0.35em 1.2em;
 margin:0.5em 0.3em 0.1em 25em;
@@ -263,12 +251,12 @@ transition: all 0.2s;
 background-color:#ff7f00;
 top: 10;
 }
-.epicMealTime:hover{
+#myBtn1:hover{
 color:#fff;
 background-color:#000;
 }
 @media all and (max-width:30em){
-.epicMealTime{
+.myBtn1{
 display:block;
 margin:0.4em auto;
 }
@@ -306,6 +294,30 @@ margin:0.4em auto;
 
   max-width:500px
 }
+
+
+#btn{
+	position: relative;
+	right:0px;
+	background-color:transparent;
+	border:none;
+	transition: all 0.2s;
+	padding: 10px 0;
+  font-size: 22px;
+  border-bottom-style: solid;
+  width:fit-content;
+  text-align:left;
+  color:#212529;
+}
+
+
+#btn:hover{
+color:white;
+text-decoration: none;
+cursor: pointer;
+}
+
+
 
 .detailsBar{
 

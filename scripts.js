@@ -305,12 +305,7 @@ function myMap() {
 
     function showInfoDiv(indx) {
 
-
-        var realIndex = indx - 1;
-
-
-
-        let markerData = coordsArr[realIndex]
+        let markerData = coordsArr[indx]
         const $detailsDiv = $('.detailsBar')
         const $titleDiv = $('.details-pane-title');
         const $contentDiv = $('.details-pane-content');
