@@ -94,13 +94,9 @@
 				<h1> Mercer University Campus Map </h1>
 			</div>
 
-			<div class="col">
-				<button class='clearDirections'> Clear Directions </button>
-			</div>
+			<button class='clearDirections'> Clear Directions </button>
+			<input id='filterbar' placeholder='Filter by Building Name' value="">
 
-			<div class="col">
-				<input id='filterbar' placeholder='Filter by Building Name' value="">
-			</div>
 
 			<div class="col">
 				<!-- Trigger/Open The Modal -->
