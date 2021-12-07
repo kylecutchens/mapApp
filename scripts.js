@@ -249,8 +249,18 @@ function myMap() {
         directionsService.route($request, function (result, status) {
 
             if (status == 'OK') {
+                clearMarkers();
                 directionsRenderer.setDirections(result);
+                $('#clearDirections').attr('display', 'block');
             }
+            
+            $('#clearDirections').on('click', function(){
+
+                directionsRenderer.set('directions', null);
+                $('#clearDirections').attr('display', 'hidden');
+
+            });
+
 
 
         });

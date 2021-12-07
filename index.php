@@ -28,7 +28,7 @@
 						<ul id="menu">
 							<ul id="menu">
 								<li><button id="btn1" style=font-weight:bold class="modal-button" href="#myModal2"> Building Codes </button></li>
-		
+
 								<div id="myModal2" class="modal">
 									<div class="modal2-content">
 										<span class="close">&times;</span>
@@ -37,7 +37,7 @@
 												<h1>Building Names - Code</h1>
 											</div>
 
-											
+
 											<div class="col">
 												<p>Connell Student Center - CSC</p>
 												<p>Historical Quad - HQ</p>
@@ -73,7 +73,6 @@
 										</div>
 									</div>
 								</div>
-									
 
 
 								<a href="https://residencelife.mercer.edu/www/images/MaconCampusMap19-20.jpg" target="_blank">
@@ -87,16 +86,21 @@
 				</nav>
 			</div>
 
-		<div class="col">
-			<img src="https://www.mercer.edu/wp-content/uploads/2019/04/cropped-android-chrome-512x512.png" alt="Mercer Logo" width="80" height="80">
-			<h1> Mercer University Campus Map </h1>
-		</div>
-		<div class="col">
-			<!-- Trigger/Open The Modal -->
-			<button id="btn2" class="modal-button" href="#myModal1">Input Directions Here!</button>
-			<input id='filterbar' placeholder='Filter by Building Name' value="">
-		</div>
+			<div class="col">
+				<img src="https://www.mercer.edu/wp-content/uploads/2019/04/cropped-android-chrome-512x512.png" alt="Mercer Logo" width="80" height="80">
+				<h1> Mercer University Campus Map </h1>
+			</div>
+			<div class="col">
+				<!-- Trigger/Open The Modal -->
+				<button id="btn2" class="modal-button" href="#myModal1">Input Directions Here!</button>
+			</div>
+			<div class="col">
+				<input id='filterbar' placeholder='Filter by Building Name' value="">
+			</div>
 
+			<div class="col">
+				<button id='clearDirections'> Clear Directions </button>
+			</div>
 
 		</div>
 		<!-- The Modal -->
