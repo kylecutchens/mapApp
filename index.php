@@ -26,17 +26,15 @@
 
 
 						<ul id="menu">
-						<ul id="menu">
-							<li><button id="btn" style=font-weight:bold class="modal-button"> Building Codes </button></li>
-		<div id="myModal" class="modal">
+						<ul id="menu"><li><button id="btn" style=font-weight:bold class="modal-button" href="#myModal2"> Building Codes </button></li>
+							
+		<div id="myModal2" class="modal">
 			<div class="modal-content">
 				<span class="close">&times;</span>
 				<div class = "row">
 				<div class = "col">
 					<h1>Building Names - Code</h1>
 				</div>
-				</div>
-				<div class = "row">
 				<div class = "col">
 					<p>Connell Student Center - CSC</p>
 					<p>Historical Quad - HQ</p>
@@ -89,14 +87,14 @@
 			</div>
 			<div class="col">
 				<!-- Trigger/Open The Modal -->
-				<button id="myBtn1" class="modal-button">Input Directions Here!</button>
+				<button id="myBtn1" class="modal-button" href="#myModal1">Input Directions Here!</button>
 				<input id='filterbar' placeholder='Filter by Building Name' value="">
 			</div>
 
 
 		</div>
 		<!-- The Modal -->
-		<div id="myModal" class="modal">
+		<div id="myModal1" class="modal">
 
 			<!-- Modal content -->
 			<div class="modal-content">
