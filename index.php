@@ -175,13 +175,15 @@
 		$count = $count + 1;
 	}
 
+	echo 'here';
 	echo json_encode(new ArrayValue($r), JSON_PRETTY_PRINT);
+	echo 'here';
 
 	?>
 
 
 
-	<div style="display: none" id='totalCoords'><?php echo (json_encode($r)); ?></div>
+	<div style="display: none" id='totalCoords'><?php //echo (json_encode($r)); ?></div>
 	<input hidden id='coordinate' value='' />
 	<input hidden id='coordinate2' value='' />
 
