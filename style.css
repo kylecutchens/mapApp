@@ -406,6 +406,6 @@ transition: left .2s ease, opacity .2s ease;
   opacity: 0;
 }
 
-#clearDirections-show{
+.clearDirections-show{
   opacity: 1;
 }
