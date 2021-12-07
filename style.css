@@ -329,7 +329,7 @@ margin:0.4em auto;
 
 #btn1{
 	position: relative;
-right: 400px;
+  left: 49vh;
 background-color: transparent;
 border: none;
 transition: all 0.2s;
@@ -339,7 +339,7 @@ border-bottom-style: solid;
 width: fit-content;
 text-align: left;
 color: black;
-bottom: 300px;
+bottom: 35vh;
 z-index: 20;
 }
 
