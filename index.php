@@ -139,7 +139,7 @@
 
 	global $con;
 
-	/*function utf8ize($input)
+	function utf8ize($input)
 	{
 
 		if (is_array($input)) {
@@ -150,7 +150,7 @@
 			return utf8_encode($input);
 		}
 		return $input;
-	};*/
+	};
 
 	$markerData = $con->query("SELECT * FROM coordinates ORDER BY indx");
 
@@ -172,8 +172,7 @@
 	?>
 
 
-
-	<div style="display: none" id='totalCoords'><?php //echo (json_encode($r)); ?></div>
+	<div style="display: none" id='totalCoords'><?php echo json_encode(utf8ize($r)); ?></div>
 	<input hidden id='coordinate' value='' />
 	<input hidden id='coordinate2' value='' />
 
