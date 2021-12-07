@@ -27,10 +27,10 @@
 
 						<ul id="menu">
 							<ul id="menu">
-								<li><button id="btn" style=font-weight:bold class="modal-button" href="#myModal2"> Building Codes </button></li>
+								<li><button id="btn1" style=font-weight:bold class="modal-button" href="#myModal2"> Building Codes </button></li>
 		
 								<div id="myModal2" class="modal">
-									<div class="modal-content">
+									<div class="modal2-content">
 										<span class="close">&times;</span>
 										<div class="row">
 											<div class="col">
@@ -93,7 +93,7 @@
 		</div>
 		<div class="col">
 			<!-- Trigger/Open The Modal -->
-			<button id="myBtn1" class="modal-button" href="#myModal1">Input Directions Here!</button>
+			<button id="btn2" class="modal-button" href="#myModal1">Input Directions Here!</button>
 			<input id='filterbar' placeholder='Filter by Building Name' value="">
 		</div>
 

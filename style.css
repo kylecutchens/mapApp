@@ -225,6 +225,17 @@ body
   animation-duration: 0.4s
 }
 
+.modal2-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
 /* The Close Button */
 .close {
   color: white;
@@ -255,7 +266,7 @@ body
 }
 
 
-#myBtn1{
+#btn2{
 display:inline-block;
 padding:0.35em 1.2em;
 margin:0.5em 0.3em 0.1em 25em;
@@ -270,12 +281,13 @@ transition: all 0.2s;
 background-color:#ff7f00;
 top: 10;
 }
-#myBtn1:hover{
+
+#btn2:hover{
 color:#fff;
 background-color:#000;
 }
 @media all and (max-width:30em){
-.myBtn1{
+.btn2{
 display:block;
 margin:0.4em auto;
 }
@@ -315,7 +327,7 @@ margin:0.4em auto;
 }
 
 
-#btn{
+#btn1{
 	position: relative;
 	right:0px;
 	background-color:transparent;
