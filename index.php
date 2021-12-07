@@ -136,9 +136,22 @@
 	<div id='test'></div>
 
 	<?php
+
+	class ArrayValue implements JsonSerializable
+	{
+		public function __construct(array $array)
+		{
+			$this->array = $array;
+		}
+
+		public function jsonSerialize()
+		{
+			return $this->array;
+		}
+	}
 	global $con;
 
-	function utf8ize($input)
+	/*function utf8ize($input)
 	{
 
 		if (is_array($input)) {
@@ -149,7 +162,7 @@
 			return utf8_encode($input);
 		}
 		return $input;
-	};
+	};*/
 
 	$markerData = $con->query("SELECT * FROM coordinates ORDER BY indx");
 
@@ -162,13 +175,13 @@
 		$count = $count + 1;
 	}
 
-	echo json_encode($r);
+	echo json_encode(new ArrayValue($r), JSON_PRETTY_PRINT);
 
 	?>
 
 
 
-	<div style="display: none" id='totalCoords'><?php echo (utf8ize(json_encode($r))); ?></div>
+	<div style="display: none" id='totalCoords'><?php echo (json_encode($r)); ?></div>
 	<input hidden id='coordinate' value='' />
 	<input hidden id='coordinate2' value='' />
 
@@ -180,7 +193,7 @@
 
 		<div>
 
-			<div ><img class=img-holder id='locationImage' src=''></div>
+			<div><img class=img-holder id='locationImage' src=''></div>
 			<button class='details-pane-close'>x</button>
 			<div class='details-pane-title'></div>
 
