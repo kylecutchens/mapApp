@@ -253,6 +253,7 @@ function myMap() {
                 $('.modal').attr('display', 'none');
                 clearMarkers();
                 directionsRenderer.setDirections(result);
+                $('#myModal1').attr('display', 'none');
                 $('.clearDirections').addClass('clearDirections-show');
             }
             
