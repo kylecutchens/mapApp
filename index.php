@@ -137,18 +137,6 @@
 
 	<?php
 
-	class ArrayValue implements JsonSerializable
-	{
-		public function __construct(array $array)
-		{
-			$this->array = $array;
-		}
-
-		public function jsonSerialize()
-		{
-			return $this->array;
-		}
-	}
 	global $con;
 
 	/*function utf8ize($input)
@@ -176,12 +164,9 @@
 	}
 
 	for ($i=0; $i < 76; $i++) { 
-		echo $r[$i];
-	}
 
-	echo 'here';
-	echo json_encode(new ArrayValue($r), JSON_PRETTY_PRINT);
-	echo 'here';
+		echo json_encode($r[$i]) . "\n";
+	}
 
 	?>
 
