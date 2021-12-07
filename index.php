@@ -30,7 +30,7 @@
 								<li><button id="btn1" style=font-weight:bold class="modal-button" href="#myModal2"> Building Codes </button></li>
 
 								<div id="myModal2" class="modal">
-									<div class="modal2-content">
+									<div class="modal-content">
 										<span class="close">&times;</span>
 										<div class="row">
 											<div class="col">

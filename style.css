@@ -177,15 +177,6 @@ body
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
-{
-  padding: 10px 0;
-  border-bottom-style: solid;
-  width: fit-content;
-  margin: 0 auto;
-  font-size: 22px;
-}
-
 /*
  * And let's slide it in from the left
  */
@@ -215,17 +206,6 @@ body
 
 /* Modal Content */
 .modal-content {
-  position: fixed;
-  bottom: 0;
-  background-color: #fefefe;
-  width: 100%;
-  -webkit-animation-name: slideIn;
-  -webkit-animation-duration: 0.4s;
-  animation-name: slideIn;
-  animation-duration: 0.4s
-}
-
-.modal2-content {
   position: fixed;
   bottom: 0;
   background-color: #fefefe;
