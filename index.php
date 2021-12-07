@@ -28,8 +28,8 @@
 						<ul id="menu">
 						<ul id="menu">
 							<li><button id="btn" style=font-weight:bold class="modal-button"> Building Codes </button></li>
-		<div id="myModal2" class="modal2">
-			<div class="modal2-content">
+		<div id="myModal" class="modal">
+			<div class="modal-content">
 				<span class="close">&times;</span>
 				<div class = "row">
 				<div class = "col">
