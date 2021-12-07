@@ -163,11 +163,11 @@
 		$count = $count + 1;
 	}
 
-	for ($i=0; $i < 76; $i++) { 
+	/*for ($i=0; $i < 76; $i++) { 
 		
 		echo $i . '<br>' . json_encode($r[$i]) . "<br>";
 		
-	}
+	}*/
 
 	?>
 
