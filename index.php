@@ -81,7 +81,7 @@
 					</div>
 				</nav>
 			</div>
-		</div>
+
 		<div class="col">
 			<img src="https://www.mercer.edu/wp-content/uploads/2019/04/cropped-android-chrome-512x512.png" alt="Mercer Logo" width="80" height="80">
 			<h1> Mercer University Campus Map </h1>
