@@ -400,7 +400,7 @@ transition: left .2s ease, opacity .2s ease;
   margin-bottom: 2rem;
 }
 
-#clearDirections{
+.clearDirections{
   margin: 15px;
   position: relative;
   opacity: 0;

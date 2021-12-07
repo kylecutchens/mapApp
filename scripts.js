@@ -251,13 +251,13 @@ function myMap() {
             if (status == 'OK') {
                 clearMarkers();
                 directionsRenderer.setDirections(result);
-                $('#clearDirections').addClass('clearDirections-show');
+                $('.clearDirections').addClass('clearDirections-show');
             }
             
-            $('#clearDirections').on('click', function(){
+            $('.clearDirections').on('click', function(){
 
                 directionsRenderer.set('directions', null);
-                $('#clearDirections').removeClass('clearDirections-show');
+                $('.clearDirections').removeClass('clearDirections-show');
 
             });
 
@@ -266,7 +266,7 @@ function myMap() {
         });
     });
 
-    $('#filterbar').on('keyup', function () {
+    $('.filterbar').on('keyup', function () {
 
         var input = $('#filterbar').val()
 
