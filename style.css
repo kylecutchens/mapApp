@@ -18,14 +18,7 @@ body
 
 .header{
 
-  text-align: center; 
-  background-color: #f76800; 
-  font: Optima; 
-  border-bottom-style:solid;
-  position: absolute;
-  height: 200px;
-  z-index: 2;
-  width: 100%;
+  display: hidden;
 }
 
 #menuToggle
