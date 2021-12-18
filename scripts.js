@@ -171,8 +171,8 @@ function myMap() {
 
     var mapProp = {
         center: new google.maps.LatLng('32.8275', '-83.6494'),
-        maxZoom: 16,
-        minZoom: 18,
+        maxZoom: 18,
+        minZoom: 16,
         mapId: '313c17d8f0620ca9',
         zoomControl: false,
         scrollwheel: false,
