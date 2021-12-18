@@ -331,7 +331,8 @@ function myMap() {
         zoomControl: false,
         scrollwheel: false,
         diableDoubleClickZoom: true,
-        heading: 150
+        heading: 150,
+        tilt: 50
 
     };
 
