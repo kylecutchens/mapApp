@@ -327,7 +327,10 @@ function myMap() {
                     }
                 ]
             }
-        ]
+        ],
+        zoomControl: false,
+        scrollwheel: false,
+        diableDoubleClickZoom: true
 
     };
 
