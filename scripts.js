@@ -171,14 +171,13 @@ function myMap() {
 
     var mapProp = {
         center: new google.maps.LatLng('32.8275', '-83.6494'),
-        zoom: 17.6,
+        zoom: 17,
         mapId: '313c17d8f0620ca9',
         zoomControl: false,
         scrollwheel: false,
         disableDoubleClickZoom: true,
         disableDefaultUI: true,
         heading: 36,
-        tilt: 5
 
     };
 
