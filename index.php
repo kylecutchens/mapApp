@@ -72,7 +72,7 @@
 <body>
 
 	<div id='test'>
-		<img src='images/misc/logo.png' alt='Mercer University Logo'>
+		<img src='images/misc/logo.png' alt='Mercer University Logo ' width='250' height='50'>
 	</div>
 
 	<?php
