@@ -333,7 +333,7 @@ function myMap() {
         scrollwheel: false,
         disableDoubleClickZoom: true,
         disableDefaultUI: true,
-        heading: 40
+        heading: 35
 
     };
 
