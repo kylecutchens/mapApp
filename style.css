@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-header input {
+header .filterbar {
   position: absolute;
 }
 
