@@ -177,7 +177,8 @@ function myMap() {
         scrollwheel: false,
         disableDoubleClickZoom: true,
         disableDefaultUI: true,
-        heading: 36
+        heading: 36,
+        tilt: 5
 
     };
 
