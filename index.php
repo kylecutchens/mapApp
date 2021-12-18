@@ -106,6 +106,8 @@
 	<input hidden id='coordinate' value='' />
 	<input hidden id='coordinate2' value='' />
 
+	
+
 
 
 	<div id="map" class='map'></div>
