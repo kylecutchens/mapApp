@@ -173,7 +173,7 @@ function myMap() {
         center: new google.maps.LatLng('32.8275', '-83.6494'),
         zoom: 16,
         //does the hide thing
-        styles: [
+       /*styles: [
             {
                 "featureType": "all",
                 "elementType": "geometry.fill",
@@ -327,7 +327,8 @@ function myMap() {
                     }
                 ]
             }
-        ],
+        ],*/
+        mapId: '313c17d8f0620ca9',
         zoomControl: false,
         scrollwheel: false,
         disableDoubleClickZoom: true,
