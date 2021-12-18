@@ -175,7 +175,6 @@ function myMap() {
         minZoom: 18,
         maxZoom: 20,
         mapId: '313c17d8f0620ca9',
-        scrollwheel: false,
         disableDoubleClickZoom: true,
         disableDefaultUI: true,
         heading: 36,
