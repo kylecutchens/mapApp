@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 
-header {
-  display: hidden;
+header input {
+  position: absolute;
 }
 
 .logo {
