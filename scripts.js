@@ -330,7 +330,7 @@ function myMap() {
         ],
         zoomControl: false,
         scrollwheel: false,
-        diableDoubleClickZoom: true,
+        disableDoubleClickZoom: true,
         disableDefaultUI: true,
 
     };
