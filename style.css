@@ -2,20 +2,13 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  /* make it look decent enough */
-  background: #232323;
-  color: #fc7d03;
-  font-family: "Optima";
-  height: 100vh;
-  overflow: hidden;
-  width: 100%;
-}
-
 header {
   display: hidden;
+}
+
+.logo {
+  height: 65px;
+  width: 280px;
 }
 
 .header-container {
