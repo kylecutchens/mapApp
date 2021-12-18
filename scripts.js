@@ -332,7 +332,7 @@ function myMap() {
         scrollwheel: false,
         disableDoubleClickZoom: true,
         disableDefaultUI: true,
-        heading: -120
+        heading: -320
 
     };
 
