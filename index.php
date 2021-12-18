@@ -13,7 +13,7 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
 
-	<!-- defunct code for directions search bar. Use only for reference
+		<!-- defunct code for directions search bar. Use only for reference
 
 		<div class="col" style='background-color: lightgrey'>
 			<p id='input'> Please Enter Origin Location </p>
@@ -42,26 +42,28 @@
 
 	--->
 
-			<div id='header-container' class='header-container'> </div>
+		<div id='header-container' class='header-container'>
+			<img src='images/misc/logo.png' alt='Mercer University Logo ' width='250' height='50'>
+		</div>
 
-			<?php
+		<?php
 
-			/*code for connecting to phpmyadmin database. */
+		/*code for connecting to phpmyadmin database. */
 
-			$con = new mysqli('localhost', 'root', 'xXdBLnejWq3h9s', 'mapApp');
+		$con = new mysqli('localhost', 'root', 'xXdBLnejWq3h9s', 'mapApp');
 
-			if ($con->connect_error) {
-				die('could not connect to mySQL: ' . $con->connect_error);
-			}
+		if ($con->connect_error) {
+			die('could not connect to mySQL: ' . $con->connect_error);
+		}
 
-			$centerData = $con->query("SELECT * FROM coordinates WHERE bcode = 'UC'");
+		$centerData = $con->query("SELECT * FROM coordinates WHERE bcode = 'UC'");
 
-			if ($centerData) {
-				$center = $centerData->fetch_assoc();
-			} else
-				die("SELECT CENTER FAILED");
+		if ($centerData) {
+			$center = $centerData->fetch_assoc();
+		} else
+			die("SELECT CENTER FAILED");
 
-			?>
+		?>
 
 		</div>
 
@@ -72,7 +74,7 @@
 <body>
 
 	<div id='test'>
-		<img src='images/misc/logo.png' alt='Mercer University Logo ' width='250' height='50'>
+
 	</div>
 
 	<?php
@@ -110,7 +112,7 @@
 	<input hidden id='coordinate' value='' />
 	<input hidden id='coordinate2' value='' />
 
-	
+
 
 
 
