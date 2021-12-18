@@ -177,6 +177,7 @@ function myMap() {
         mapId: '313c17d8f0620ca9',
         disableDoubleClickZoom: true,
         disableDefaultUI: true,
+        rotateControl: false,
         heading: 36,
 
     };
