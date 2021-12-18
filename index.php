@@ -71,7 +71,9 @@
 
 <body>
 
-	<div id='test'></div>
+	<div id='test'>
+		<img src='images/misc/logo.svg' alt='Mercer University Logo'>
+	</div>
 
 	<?php
 
