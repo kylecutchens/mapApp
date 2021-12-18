@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-header .filterbar {
+header .filterBar {
   position: absolute;
   left: 20px;
   top: 150px;
