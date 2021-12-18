@@ -43,7 +43,7 @@
 	--->
 
 		<div id='header-container' class='header-container'>
-			<img src='images/misc/logo.png' alt='Mercer University Logo'>
+			<img class='logo' src='images/misc/logo.png' alt='Mercer University Logo'>
 		</div>
 
 		<?php
