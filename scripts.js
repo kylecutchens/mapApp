@@ -171,7 +171,7 @@ function myMap() {
         center: new google.maps.LatLng('32.8275', '-83.6494'),
         zoom: 16,
         //does the hide thing
-        mapTypeId: 'mercermap',
+        mapTypeId: '313c17d8f0620ca9',
         
     };
 

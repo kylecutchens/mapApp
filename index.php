@@ -124,7 +124,7 @@
 	</div>
 
 	<script type="text/javascript" src="scripts.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA8OXkLqtVF7X51RpqSBL5MjTPZqTNdIo&callback=myMap"> </script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA8OXkLqtVF7X51RpqSBL5MjTPZqTNdIo&map_ids=313c17d8f0620ca9&callback=myMap"> </script>
 
 </body>
 
