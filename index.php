@@ -42,6 +42,8 @@
 
 	--->
 
+			<div id='header-container' class='header-container'> </div>
+
 			<?php
 
 			/*code for connecting to phpmyadmin database. */
@@ -107,6 +109,8 @@
 	<input hidden id='coordinate2' value='' />
 
 	
+
+
 
 
 

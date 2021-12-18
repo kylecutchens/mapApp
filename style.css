@@ -14,8 +14,17 @@ body {
   width: 100%;
 }
 
-.header {
+header {
   display: hidden;
+}
+
+.header-container {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  height: 65px;
+  width: 280px;
+  background-color: #ff8000;
 }
 
 .map {
