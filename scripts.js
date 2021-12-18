@@ -171,7 +171,7 @@ function myMap() {
 
     var mapProp = {
         center: new google.maps.LatLng('32.8275', '-83.6494'),
-        zoom: 16,
+        zoom: 10,
         //does the hide thing
         styles: [
             {
