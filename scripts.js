@@ -161,6 +161,17 @@ window.onclick = function (event) {
 
 
 
+$(document).ready(function () {
+
+    $('.textInput').on('keyup', function(){
+
+        let section = $('.textInput').getElementById();
+        console.log(section);
+    });
+
+});
+
+
 //map callback function. anything relating to the map goes here
 function myMap() {
 
@@ -245,9 +256,9 @@ function myMap() {
         });
     });
 
-    $('#filterbar').on('keyup', function () {
+    $('#filterBar').on('keyup', function () {
 
-        var input = $('#filterbar').val()
+        var input = $('#filterBar').val()
 
 
         if (input == "") {

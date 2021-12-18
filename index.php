@@ -44,7 +44,7 @@
 
 		<div id='header-container' class='header-container'>
 			<img class='logo' src='images/misc/logo.png' alt='Mercer University Logo'>
-			<input type='text' class='filterbar' id='filterbar' placeholder='Search for buildings'>
+			<input type='text' class='filterBar textInput' id='filterbar' placeholder='Search for buildings here'>
 		</div>
 
 		<?php
