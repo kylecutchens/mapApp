@@ -178,7 +178,7 @@ $(document).ready(function () {
 
             console.log('piss');
 
-            $('#'+section).setAttr('value', selection);
+            $('#' + section).setAttr('value', selection);
             $('#' + display).hide();
 
         });
