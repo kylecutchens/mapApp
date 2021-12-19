@@ -187,7 +187,7 @@ $(document).ready(function () {
         }
     });
 
-    $('.searchResult').on('click', function () {
+    $('li').on('click', function () {
 
         let selection = $(this).attr('data');
 
