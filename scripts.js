@@ -165,12 +165,12 @@ $(document).ready(function () {
 
     $('.textInput').on('keyup', function(){
 
-        let section = $('.textInput').attr('id');
-        let display = $('.textInput').attr('data');
+        let section = $(this).attr('id');
+        let display = $(this).attr('data');
         console.log(section);
         console.log(display);
 
-        
+
     });
 
 });
