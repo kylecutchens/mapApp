@@ -181,7 +181,18 @@ $(document).ready(function () {
                 type: 'POST',
                 url: 'ajax.php',
                 data: { search: input },
-                success: function (result) { $('#' + display).html(result).show(); },
+                success: function (result) { 
+                    
+                    $('#' + display).html(result).show(); 
+                    
+                    $(this).on('click', function () {
+
+                        console.log('piss');
+
+                    });
+                
+                },
+
                 error: function () { console.log('live search failed') }
             });
         }
@@ -189,9 +200,9 @@ $(document).ready(function () {
 
     $('a').on('click', function () {
 
-        let selection = $(this).attr('data');
+        //let selection = $(this).attr('data');
 
-        console.log('piss');
+        
 
         $('#' + section).setAttr('value', selection);
         $('#' + display).hide();
