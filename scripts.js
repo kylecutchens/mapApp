@@ -185,7 +185,7 @@ $(document).ready(function () {
                     
                     $('#' + display).html(result).show(); 
                     
-                    $(this).on('click', function () {
+                    $($('#' + result)).on('click', function () {
 
                         console.log('piss');
 
