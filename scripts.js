@@ -126,7 +126,7 @@ function myMap() {
         });
     });
 
-    $('#filterbar').on('change', function () {
+    $('#filterbar').on('keyup', function () {
 
         var input = $('#filterbar').val()
 
