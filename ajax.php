@@ -26,7 +26,7 @@ if (isset($_POST['search'])) {
    <li data="<?php echo $Result['bcode'] ?>" class='searchResult'>
    
    <!-- Assigning searched result in "Search box" in "search.php" file. -->
-       <?php echo $Result['bcode']; ?>
+       <?php echo $Result['bname']; ?>
    </li>
    <!-- Below php code is just for closing parenthesis. Don't be confused. -->
    <?php
