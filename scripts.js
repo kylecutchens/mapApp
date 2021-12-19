@@ -24,7 +24,7 @@ $(document).ready(function () {
 
                     $($('.searchResult')).on('click', function () {
 
-                        let selection = $(this).attr('data');
+                        let selection = $(this).attr('id');
 
                         $('#' + section).attr('value', selection);
                         $('#' + display).hide();
