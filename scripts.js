@@ -1,12 +1,7 @@
 //declaring globals because it's 3am and I can't think of a better way to do it
 
 //Getting value from "ajax.php".
-function fill(Value) {
-    //Assigning value to "search" div in "search.php" file.
-    $('#search').val(Value);
-    //Hiding "display" div in "search.php" file.
-    $('#display').hide();
-}
+
 
 function fill2(Value2) {
     //Assigning value to "search" div in "search.php" file.
@@ -163,12 +158,19 @@ window.onclick = function (event) {
 
 $(document).ready(function () {
 
-    $('.textInput').on('keyup', function(){
+
+
+    $('.textInput').on('keyup', function () {
 
         let section = $(this).attr('id');
         let display = $(this).attr('data');
+
         console.log(section);
         console.log(display);
+
+        let name = $(this).val();
+        console.log(name);
+
 
 
     });
