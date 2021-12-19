@@ -176,7 +176,8 @@ $(document).ready(function () {
 
             let selection = $(this).attr('data');
 
-            console.log(selection);
+            console.log('piss');
+
             $('#'+section).setAttr('value', selection);
             $('#' + display).hide();
 
