@@ -171,6 +171,14 @@ $(document).ready(function () {
         var display = $(this).attr('data');
 
         let input = $(this).val();
+
+        $('.searchResult').on('click', function(){
+
+            let selection = $(this).attr('data');
+            $('#'+section).setAttr('value', selection);
+            $('#' + display).hide();
+
+        });
         
 
         if (input == "") {
@@ -186,12 +194,6 @@ $(document).ready(function () {
                 error: function () { console.log('live search failed') }
             });
 
-            function fill(value) {
-                //Assigning value to "search" div in "search.php" file.
-                $('#' + section).val(value);
-                //Hiding "display" div in "search.php" file.
-                $('#' + section).hide();
-            }
 
         }
 
