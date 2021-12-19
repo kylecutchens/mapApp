@@ -187,7 +187,8 @@ $(document).ready(function () {
 
                     $($('.searchResult')).on('click', function () {
 
-                        console.log('piss');
+                        let selection = $(this).attr('data');
+                        
                         $('#' + section).setAttr('value', selection);
                         $('#' + display).hide();
 
@@ -202,7 +203,7 @@ $(document).ready(function () {
 
     $('a').on('click', function () {
 
-        //let selection = $(this).attr('data');
+        
 
 
 
