@@ -3,6 +3,8 @@
 //Getting value from "ajax.php".
 function fill(value) {
     //Assigning value to "search" div in "search.php" file.
+
+    console.log(value);
     $(this).find('id').val(value);
     //Hiding "display" div in "search.php" file.
     $(this).find('id').hide();
