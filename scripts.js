@@ -173,14 +173,14 @@ $(document).ready(function () {
 
         if  (input == "") {
             //Assigning empty value to "display" div in "search.php" file.
-            $(display).html("");
+            $('#'+ display).html("");
         } 
         else {
             $.ajax({
                 type:'POST',
                 url: 'ajax.php',
                 data: {search: input},
-                success: function(result){$(display).html(result).show();},
+                success: function(result){$('#'+ display).html(result).show();},
                 error: function (){console.log('live search failed')}
             });
         }
