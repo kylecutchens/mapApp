@@ -46,7 +46,7 @@
 
 			<img class='logo' src='images/misc/logo.png' alt='Mercer University Logo'>
 
-			<input type='text' class='filterBar textInput' id='filterbar' placeholder='Search for buildings here'>
+			<input type='text' class='filterBar textInput' id='filterbar' data='filterDisplay' placeholder='Search for buildings here'>
 			<div class='display' id='filterDisplay'></div>
 
 
@@ -80,8 +80,7 @@
 <body>
 
 	<div id='test'>
-		<input type='text' class='filterBar textInput' id='filterbar2' placeholder='Search for buildings here'>
-		<div class='display' id='filterDisplay2'></div>
+		
 	</div>
 
 	<?php
