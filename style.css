@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 header .filterBar {
   position: absolute;
   left: 20px;
@@ -10,6 +14,7 @@ header .filterBar {
 }
 header .searchResult {
   width: 325px;
+  text-align: center;
   background-color: #dddcdc;
   color: black;
 }
@@ -17,6 +22,7 @@ header .searchResult:hover {
   font-weight: bold;
   background-color: #f76800;
   border-color: black;
+  transition-duration: 0.3s;
 }
 
 .logo {

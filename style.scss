@@ -5,6 +5,10 @@ $primaryColor: #ff8000 ;
     box-sizing: border-box;
   }
 
+ul{
+  list-style-type: none;
+}
+
 header{
 
   .filterBar{
@@ -16,6 +20,7 @@ header{
 
   .searchResult{
     width: 325px;
+    text-align: center;
     background-color: rgb(221, 220, 220);
     color : black;
 
@@ -23,6 +28,7 @@ header{
       font-weight: bold;
       background-color: #f76800;
       border-color: black;
+      transition-duration: .3s;
     }
 
   }
