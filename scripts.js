@@ -165,7 +165,7 @@ $(document).ready(function () {
 
     $('.textInput').on('keyup', function(){
 
-        let section = $('.textInput').attr('class');
+        let section = $('.textInput').attr('id');
         console.log(section);
     });
 
