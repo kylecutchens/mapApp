@@ -1,7 +1,12 @@
 //declaring globals because it's 3am and I can't think of a better way to do it
 
 //Getting value from "ajax.php".
-
+function fill(value) {
+    //Assigning value to "search" div in "search.php" file.
+    $(this).find('id').val(value);
+    //Hiding "display" div in "search.php" file.
+    $(this).find('id').hide();
+}
 
 function fill2(Value2) {
     //Assigning value to "search" div in "search.php" file.
@@ -163,14 +168,11 @@ $(document).ready(function () {
         var section = $(this).attr('id');
         var display = $(this).attr('data');
 
-        // console.log(section);
-        // console.log(display);
-
         let input = $(this).val();
-        //console.log input);
+        
 
         if (input == "") {
-            //Assigning empty value to "display" div in "search.php" file.
+            
             $('#' + display).html("");
         }
         else {
