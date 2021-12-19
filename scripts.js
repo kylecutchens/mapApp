@@ -169,6 +169,8 @@ $(document).ready(function () {
         let display = $('.textInput').attr('data');
         console.log(section);
         console.log(display);
+
+        
     });
 
 });
