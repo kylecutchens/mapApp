@@ -80,8 +80,7 @@
 <body>
 
 	<div id='test'>
-			<input type='text' class='filterBar2 textInput' id='filterbar2' data='filterDisplay2' placeholder='Search for buildings here'>
-			<div class='display' id='filterDisplay2'></div>
+	
 	</div>
 
 	<?php

@@ -128,7 +128,7 @@ $(document).ready(function () {
                 //AJAX type is "Post".
                 type: "POST",
                 //Data will be sent to "ajax.php".
-                url: "ajax2.php",
+                url: "ajax.php",
                 //Data, that will be sent to "ajax.php".
                 data: {
                     //Assigning value of "name" into "search" variable.
@@ -165,11 +165,25 @@ $(document).ready(function () {
         let section = $(this).attr('id');
         let display = $(this).attr('data');
 
-        console.log(section);
-        console.log(display);
+       // console.log(section);
+       // console.log(display);
 
-        let name = $(this).val();
-        console.log(name);
+        let input = $(this).val();
+        //console.log input);
+
+        if  (input == "") {
+            //Assigning empty value to "display" div in "search.php" file.
+            $(display).html("");
+        } 
+        else {
+            $.ajax({
+                type:'POST',
+                url: 'ajax.php',
+                data: {search: input},
+                success: function(result){$(display).html(result).show();},
+                error: function (){console.log('live search failed')}
+            });
+        }
 
 
 
