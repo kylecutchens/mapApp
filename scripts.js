@@ -175,6 +175,8 @@ $(document).ready(function () {
         $('.searchResult').on('click', function(){
 
             let selection = $(this).attr('data');
+
+            console.log(selection);
             $('#'+section).setAttr('value', selection);
             $('#' + display).hide();
 
