@@ -185,7 +185,7 @@ $(document).ready(function () {
                     
                     $('#' + display).html(result).show(); 
                     
-                    $($('#' + result)).on('click', function () {
+                    $($('.searchResult')).on('click', function () {
 
                         console.log('piss');
 
