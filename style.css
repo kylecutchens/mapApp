@@ -12,6 +12,10 @@ header .filterBar {
   top: 150px;
   width: 325px;
 }
+header ul {
+  position: absolute;
+  left: -20px;
+}
 header .searchResult {
   width: 325px;
   text-align: center;
