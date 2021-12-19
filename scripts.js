@@ -166,7 +166,7 @@ $(document).ready(function () {
     $('.textInput').on('keyup', function(){
 
         let section = $('.textInput').attr('id');
-        let display = $().closest("div").attr('id')
+        let display = $('.display').closest("div").attr('id');
         console.log(section);
         console.log(display);
     });
