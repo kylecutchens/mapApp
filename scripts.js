@@ -126,9 +126,9 @@ function myMap() {
         });
     });
 
-    $('#filterBar').on('keyup', function () {
+    $('#filterbar').on('keyup', function () {
 
-        var input = $('#filterBar').val()
+        var input = $('#filterbar').val()
 
 
         if (input == "") {
