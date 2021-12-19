@@ -6,10 +6,10 @@ include "db.php";
 if (isset($_POST['search'])) {
 
 //Search box value assigning to $bcode variable.
-   $bcode = $_POST['search'];
+   $bname = $_POST['search'];
 
 //Search query.
-   $Query = "SELECT bcode FROM coordinates WHERE bcode LIKE '%$bcode%' LIMIT 5";
+   $Query = "SELECT * FROM coordinates WHERE bname LIKE '%$bname%' LIMIT 5";
 
 //Query execution
    $ExecQuery = MySQLi_query($con, $Query);
