@@ -158,33 +158,36 @@ window.onclick = function (event) {
 
 $(document).ready(function () {
 
-
-
     $('.textInput').on('keyup', function () {
 
-        let section = $(this).attr('id');
-        let display = $(this).attr('data');
+        var section = $(this).attr('id');
+        var display = $(this).attr('data');
 
-       // console.log(section);
-       // console.log(display);
+        // console.log(section);
+        // console.log(display);
 
         let input = $(this).val();
         //console.log input);
 
-        if  (input == "") {
+        if (input == "") {
             //Assigning empty value to "display" div in "search.php" file.
-            $('#'+ display).html("");
-        } 
+            $('#' + display).html("");
+        }
         else {
             $.ajax({
-                type:'POST',
+                type: 'POST',
                 url: 'ajax.php',
-                data: {search: input},
-                success: function(result){$('#'+ display).html(result).show();},
-                error: function (){console.log('live search failed')}
+                data: { search: input },
+                success: function (result) { $('#' + display).html(result).show(); },
+                error: function () { console.log('live search failed') }
             });
         }
-
+        function fill(value) {
+            //Assigning value to "search" div in "search.php" file.
+            $('#'+section).val(value);
+            //Hiding "display" div in "search.php" file.
+            $('#'+section).hide();
+        }
 
 
     });
