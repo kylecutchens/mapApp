@@ -187,7 +187,7 @@ $(document).ready(function () {
         }
     });
 
-    $('li').on('click', function () {
+    $('a').on('click', function () {
 
         let selection = $(this).attr('data');
 
