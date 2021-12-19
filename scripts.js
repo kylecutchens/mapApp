@@ -181,13 +181,17 @@ $(document).ready(function () {
                 success: function (result) { $('#' + display).html(result).show(); },
                 error: function () { console.log('live search failed') }
             });
+
+            function fill(value) {
+                //Assigning value to "search" div in "search.php" file.
+                $('#' + section).val(value);
+                //Hiding "display" div in "search.php" file.
+                $('#' + section).hide();
+            }
+
         }
-        function fill(value) {
-            //Assigning value to "search" div in "search.php" file.
-            $('#'+section).val(value);
-            //Hiding "display" div in "search.php" file.
-            $('#'+section).hide();
-        }
+
+
 
 
     });
