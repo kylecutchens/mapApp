@@ -24,10 +24,10 @@ if (isset($_POST['search'])) {
         Calling javascript function named as "fill" found in "script.js" file.
         By passing fetched result as parameter. -->
    <li data="<?php echo $Result['bcode'] ?>" class='searchResult'>
-   <a>
+   
    <!-- Assigning searched result in "Search box" in "search.php" file. -->
        <?php echo $Result['bcode']; ?>
-   </li></a>
+   </li>
    <!-- Below php code is just for closing parenthesis. Don't be confused. -->
    <?php
 }}
