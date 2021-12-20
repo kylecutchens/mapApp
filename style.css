@@ -46,6 +46,10 @@ header .searchResult:hover {
   height: 100vh;
 }
 
+.buttonHolder {
+  background-color: #c300eb;
+}
+
 .img-holder {
   max-width: 500px;
 }
