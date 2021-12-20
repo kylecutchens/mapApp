@@ -1,121 +1,103 @@
-$primaryColor: #ff8000 ;
-
+$primaryColor: #ff8000;
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-ul{
+ul {
   list-style-type: none;
 }
 
-header{
-
-  .filterBar{
+header {
+  .filterBar {
     position: absolute;
     left: 20px;
     top: 150px;
     width: 325px;
   }
 
-  ul{
+  ul {
     position: absolute;
     left: -20px;
   }
 
-  .searchResult{
+  .searchResult {
     width: 325px;
     text-align: center;
     background-color: rgb(221, 220, 220);
-    color : black;
+    color: black;
 
-    &:hover{
+    &:hover {
       font-weight: bold;
       background-color: #f76800;
       border-color: black;
-      transition-duration: .3s;
+      transition-duration: 0.3s;
     }
-
   }
-
-
 }
 
-  .logo
-{
+.logo {
   height: 200px;
 }
 
-
-
-.header-container{
-
-    position: absolute;
-    left: 40px;
-    height: 65px;
-    width: 280px;
-    z-index: 20;
+.header-container {
+  position: absolute;
+  left: 40px;
+  height: 65px;
+  width: 280px;
+  z-index: 20;
 }
 
-
-.map{
-
+.map {
   width: 100%;
   height: 100vh;
-
 }
 
-.buttonHolder{
-
-  background-color: rgb(195, 0, 235);
-
-
+.buttonHolder {
+  background-color: #c300eb;
+  position: absolute;
+  width: 80px;
+  top: 200px;
+  height: 75vh;
+  margin-left: 70px;
 }
 
-.img-holder{
-
-  max-width:500px
+.img-holder {
+  max-width: 500px;
 }
 
-.detailsBar{
-
-background: #fff;
-border-radius: 4px;
-border: solid 2px #f76800;
-left: -400px;
-top: 220px;
-width: 600px;
-height: 80vh;
-opacity: 0;
-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-padding: 1.5rem;
-position: absolute;
-transition: left .2s ease, opacity .2s ease;
-
+.detailsBar {
+  background: #fff;
+  border-radius: 4px;
+  border: solid 2px #f76800;
+  left: -400px;
+  top: 220px;
+  width: 600px;
+  height: 80vh;
+  opacity: 0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+  position: absolute;
+  transition: left 0.2s ease, opacity 0.2s ease;
 }
 
-.details-pane-visible{
-
+.details-pane-visible {
   opacity: 1;
-  left:0;
+  left: 0;
   pointer-events: inherit;
-
 }
 
-.details-pane-close{
-
+.details-pane-close {
   background: #fff;
   border: 0;
   color: #333;
-  transition: background .3s ease;
+  transition: background 0.3s ease;
   float: right;
   cursor: pointer;
-
 }
 
-.details-pane-close:hover{
-
-  background: #f76800; 
+.details-pane-close:hover {
+  background: #f76800;
 }
 
 .details-pane-title {
@@ -125,12 +107,12 @@ transition: left .2s ease, opacity .2s ease;
   margin-bottom: 2rem;
 }
 
-.clearDirections{
+.clearDirections {
   margin: 15px;
   position: relative;
   opacity: 0;
 }
 
-.clearDirections-show{
+.clearDirections-show {
   opacity: 1;
 }
