@@ -47,7 +47,9 @@ header .searchResult:hover {
 }
 
 .buttonHolder {
-  background-color: #c300eb;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
   position: absolute;
   width: 80px;
   top: 200px;
