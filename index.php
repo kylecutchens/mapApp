@@ -167,6 +167,8 @@
 
 		<div class='utilityDiv' id='directionsDiv'>
 
+			<img class='closeButton' data='directionsDiv' src='images/icons/close.png'>
+
 			<h3>Directions</h3>
 
 			<div style='position:absolute'>
@@ -179,18 +181,31 @@
 				<div class='display' id='destDisplay'></div>
 			</div>
 
+		</div>
 
+		<div class='utilityDiv' id='filtersDiv'>
 
+			<img class='closeButton' data='filtersDiv' src='images/icons/close.png'>
 
 		</div>
 
-		<div class='utilityDiv' id='filtersDiv'></div>
+		<div class='utilityDiv' id='accessibilityDiv'>
 
-		<div class='utilityDiv' id='accessibilityDiv'></div>
+			<img class='closeButton' data='accessibilityDiv' src='images/icons/close.png'>
 
-		<div class='utilityDiv' id='resourcesDiv'></div>
+		</div>
 
-		<div class='utilityDiv' id='informationDiv'></div>
+		<div class='utilityDiv' id='resourcesDiv'>
+
+			<img class='closeButton' data='resourceDiv' src='images/icons/close.png'>
+
+		</div>
+
+		<div class='utilityDiv' id='informationDiv'>
+
+			<img class='closeButton' data='informationDiv' src='images/icons/close.png'>
+
+		</div>
 
 	</div>
 

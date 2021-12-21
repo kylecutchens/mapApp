@@ -20,6 +20,12 @@ $(document).ready(function () {
         $('#' + button).addClass('utilityDiv-visible');
     });
 
+    //close button
+    $('#closeButton').on('click', function() {
+        let div = $(this).attr('data');
+        $('#' + div).removeClass('utilityDiv-visible');
+    });
+
     //live search bar
     $('.textInput').on('keyup', function () {
 

@@ -139,6 +139,16 @@ body {
   transition: left 0.2s ease, opacity 0.2s ease;
   z-index: 40;
 
+  .closeButton {
+    border-radius: 100%;
+
+    &:hover {
+      background-color: $primaryColor;
+      border: 1px solid black;
+      transition-duration: 0.3s;
+    }
+  }
+
   .display {
     background-color: $secondaryColor;
     position: absolute;

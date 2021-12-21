@@ -130,6 +130,14 @@ body {
   transition: left 0.2s ease, opacity 0.2s ease;
   z-index: 40;
 }
+.utilityDiv .closeButton {
+  border-radius: 100%;
+}
+.utilityDiv .closeButton:hover {
+  background-color: #ff8000;
+  border: 1px solid black;
+  transition-duration: 0.3s;
+}
 .utilityDiv .display {
   background-color: #dddcdc;
   position: absolute;
