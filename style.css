@@ -21,6 +21,7 @@ header ul {
 }
 header .searchResult {
   width: 325px;
+  border: 2px solid #dddcdc;
   text-align: center;
   background-color: #dddcdc;
   color: black;
