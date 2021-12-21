@@ -69,9 +69,10 @@ header {
   border: 2px solid black;
   height: 80px;
   border-radius: 100%;
+  box-shadow: 12px 12px 2px 1px black;
 
   &:hover {
-    background-color: #ff6a00;
+    background-color: #ff00dd;
     transition-duration: 0.3s;
   }
 }
