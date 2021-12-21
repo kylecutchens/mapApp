@@ -80,7 +80,7 @@
 <body>
 
 	<div id='test'>
-			
+
 	</div>
 
 
@@ -130,10 +130,30 @@
 	<div class='buttonHolder' id='buttonHolder'>
 
 		<button id='directions' class='utilityButton'>
+			<img class='buttonIcon' src='images/icons/directions.png'>
+		</button>
+
+
 		<button id='filters' class='utilityButton'>
+			<img class='buttonIcon' src='images/icons/filters.png'>
+		</button>
+
+
 		<button id='accessibility' class='utilityButton'>
+			<img class='buttonIcon' src='images/icons/accessibility.png'>
+		</button>
+
+
 		<button id='resources' class='utilityButton'>
+			<img class='buttonIcon' src='images/icons/resources.png'>
+		</button>
+
+
 		<button id='information' class='utilityButton'>
+			<img class='buttonIcon' src='images/icons/more.png'>
+		</button>
+
+
 
 	</div>
 
