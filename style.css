@@ -6,20 +6,6 @@ ul {
   list-style-type: none;
 }
 
-.searchResult {
-  width: 325px;
-  text-align: center;
-  background-color: #dddcdc;
-  color: black;
-  z-index: 15;
-}
-.searchResult:hover {
-  font-weight: bold;
-  background-color: #ff8000;
-  border: 2px solid black;
-  transition-duration: 0.3s;
-}
-
 header .filterBar {
   position: absolute;
   left: 20px;
@@ -30,6 +16,19 @@ header .filterBar {
 header ul {
   position: absolute;
   left: -20px;
+}
+header .searchResult {
+  width: 325px;
+  text-align: center;
+  background-color: #dddcdc;
+  color: black;
+  z-index: 15;
+}
+header .searchResult:hover {
+  font-weight: bold;
+  background-color: #ff8000;
+  border: 2px solid black;
+  transition-duration: 0.3s;
 }
 
 .logo {
@@ -134,6 +133,12 @@ body {
   position: absolute;
   z-index: 30;
   margin-bottom: 20px;
+}
+.utilityDiv .display:hover {
+  font-weight: bold;
+  background-color: #ff8000;
+  border: 2px solid black;
+  transition-duration: 0.3s;
 }
 
 .directionsBar {

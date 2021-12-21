@@ -9,21 +9,6 @@ ul {
   list-style-type: none;
 }
 
-.searchResult {
-    width: 325px;
-    text-align: center;
-    background-color: #dddcdc;
-    color: black;
-    z-index: 15;
-
-    &:hover {
-      font-weight: bold;
-      background-color: $primaryColor;
-      border: 2px solid black;
-      transition-duration: 0.3s;
-    }
-  }
-
 header {
   .filterBar {
     position: absolute;
@@ -38,6 +23,20 @@ header {
     left: -20px;
   }
 
+  .searchResult {
+    width: 325px;
+    text-align: center;
+    background-color: #dddcdc;
+    color: black;
+    z-index: 15;
+
+    &:hover {
+      font-weight: bold;
+      background-color: $primaryColor;
+      border: 2px solid black;
+      transition-duration: 0.3s;
+    }
+  }
 }
 
 .logo {
@@ -144,7 +143,13 @@ body {
     position: absolute;
     z-index: 30;
     margin-bottom: 20px;
-
+    
+    &:hover {
+      font-weight: bold;
+      background-color: $primaryColor;
+      border: 2px solid black;
+      transition-duration: 0.3s;
+    }
 
   }
 }
