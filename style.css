@@ -57,6 +57,16 @@ header .searchResult:hover {
   margin-left: 70px;
 }
 
+.utilityButton {
+  background-color: #dddcdc;
+  border: 4px black;
+  border-radius: 100%;
+}
+.utilityButton:hover {
+  background-color: #f76800;
+  transition-duration: 0.3s;
+}
+
 .img-holder {
   max-width: 500px;
 }
