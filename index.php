@@ -174,7 +174,7 @@
 				<div class='display' id='originDisplay'></div>
 			</div>
 
-			<div style='position:absolute'>
+			<div style='position:absolute; bottom:30px'>
 				<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Destination">
 				<div class='display' id='destDisplay'></div>
 			</div>
