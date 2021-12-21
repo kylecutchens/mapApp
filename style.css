@@ -24,7 +24,7 @@ header .searchResult {
 }
 header .searchResult:hover {
   font-weight: bold;
-  background-color: #f76800;
+  background-color: #ff8000;
   border-color: black;
   transition-duration: 0.3s;
 }
@@ -66,7 +66,7 @@ header .searchResult:hover {
   z-index: 20;
 }
 .utilityButton:hover {
-  background-color: #ff6600;
+  background-color: #ff8000;
   transition-duration: 0.3s;
 }
 
@@ -78,7 +78,7 @@ header .searchResult:hover {
 
 .infoBox {
   visibility: hidden;
-  background-color: #d400ff;
+  background-color: #dddcdc;
   position: relative;
   z-index: 20;
   height: 40px;
