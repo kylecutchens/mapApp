@@ -115,8 +115,7 @@ body {
   transition: left 0.2s ease, opacity 0.2s ease;
   z-index: 40;
 }
-
-.display {
+.utilityDiv .display {
   width: 325px;
   height: 25vh;
   margin-bottom: 20px;
