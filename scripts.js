@@ -1,19 +1,20 @@
-
-
-
+//functions for website utilities
 $(document).ready(function () {
 
-    //dialogue box when hovering over buttons
+    //clear search bars on refresh
+    $('.textInput').val('');
+
+    //open/close dialogue box when hovering over buttons
     $(".utilityButton").on('hover', function(){
         let button = $(this).attr('id')
         $('#' + button + '> div').addClass('infoBox-visible');   
     });
-
     $(".utilityButton").on('mouseleave', function(){ 
         let button = $(this).attr('id')
         $('#' + button + '> div').removeClass('infoBox-visible');
     });
 
+    //show utility div
     $(".utilityButton").on('click', function(){
         let button = $(this).attr('data');
         $('#' + button).addClass('utilityDiv-visible');
@@ -66,8 +67,6 @@ function myMap() {
     var directionsService = new google.maps.DirectionsService();
     var directionsRenderer = new google.maps.DirectionsRenderer();
 
-    //var $style = 
-
     var $mapProp = {
         center: new google.maps.LatLng('32.8275', '-83.6494'),
         zoom: 18,
@@ -76,9 +75,6 @@ function myMap() {
         mapId: '313c17d8f0620ca9',
         disableDoubleClickZoom: true,
         disableDefaultUI: true,
-        rotateControl: false,
-        heading: 36,
-
     };
 
     var map = new google.maps.Map(document.getElementById("map"), $mapProp);
