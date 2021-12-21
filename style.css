@@ -58,8 +58,9 @@ header .searchResult:hover {
 }
 
 .utilityButton {
-  background-color: #dddcdc;
+  background-color: #cb6104;
   border: 4px black;
+  height: 7.5vh;
   border-radius: 100%;
 }
 .utilityButton:hover {
