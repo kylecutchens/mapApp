@@ -62,7 +62,7 @@ header .searchResult:hover {
   border: 2px solid black;
   height: 80px;
   border-radius: 100%;
-  box-shadow: 12px 12px 2px 1px black;
+  box-shadow: 4px 8px 2px #BFBFBF;
 }
 .utilityButton:hover {
   background-color: #ff00dd;
