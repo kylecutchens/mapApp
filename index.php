@@ -126,44 +126,65 @@
 	<div class='buttonHolder' id='buttonHolder'>
 
 		<button id='directions' class='utilityButton' data='directionsDiv'>
-			<div class='infoBox'> <h2>Directions</h2> </div>
+			<div class='infoBox'>
+				<h2>Directions</h2>
+			</div>
 			<img class='buttonIcon' src='images/icons/directions.png' alt='Directions'>
 		</button>
 
 		<button id='filters' class='utilityButton' data='filtersDiv'>
-			<div class='infoBox'> <h2>More Filters</h2> </div>
+			<div class='infoBox'>
+				<h2>More Filters</h2>
+			</div>
 			<img class='buttonIcon' src='images/icons/filters.png' alt='More Filters'>
 		</button>
 
 		<button id='accessibility' class='utilityButton' data='accessibilityDiv'>
-			<div class='infoBox'> <h2>Accessibility</h2> </div>
+			<div class='infoBox'>
+				<h2>Accessibility</h2>
+			</div>
 			<img class='buttonIcon' src='images/icons/accessibility.png' alt='Accessibility Info'>
 		</button>
 
 		<button id='resources' class='utilityButton' data='resourcesDiv'>
-			<div class='infoBox'> <h2>More Resources</h2> </div>
+			<div class='infoBox'>
+				<h2>More Resources</h2>
+			</div>
 			<img class='buttonIcon' src='images/icons/resources.png' alt='More Resources'>
 		</button>
 
 		<button id='information' class='utilityButton' data='informationDiv'>
-			<div class='infoBox'> <h2>About</h2> </div>
+			<div class='infoBox'>
+				<h2>About</h2>
+			</div>
 			<img class='buttonIcon' src='images/icons/more.png' alt='About'>
 		</button>
 
 	</div>
 
-	<div class='utilityDiv' id='directionsDiv'>
 
-	<h3>Directions</h3>
+	<div class='utilityDiv-holder'>
 
-	<input type='text' class='textInput directionsBar' id='originBar' data='originDisplay' placeholder="Enter Starting Point">
-	<div class='display' id='originDisplay'></div>
+		<div class='utilityDiv' id='directionsDiv'>
 
-	<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Starting Point">
-	<div class='display' id='destDisplay'></div>
-	
+			<h3>Directions</h3>
+
+			<input type='text' class='textInput directionsBar' id='originBar' data='originDisplay' placeholder="Enter Starting Point">
+			<div class='display' id='originDisplay'></div>
+
+			<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Starting Point">
+			<div class='display' id='destDisplay'></div>
+
+		</div>
+
+		<div class='utilityDiv' id='filtersDiv'></div>
+
+		<div class='utilityDiv' id='accessibilityDiv'></div>
+
+		<div class='utilityDiv' id='resourcesDiv'></div>
+
+		<div class='utilityDiv' id='informationDiv'></div>
 	</div>
-
 	<div id='detailsBar' class='detailsBar'>
 
 		<div>
