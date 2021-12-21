@@ -137,24 +137,30 @@ body {
   z-index: 40;
 
   .display {
-
     background-color: $secondaryColor;
     border: #333 solid 2px;
     position: absolute;
     z-index: 30;
     margin-bottom: 20px;
-    
-    &:hover {
-      font-weight: bold;
-      background-color: $primaryColor;
-      border: 2px solid black;
-      transition-duration: 0.3s;
-    }
 
+    .searchResult {
+      width: 325px;
+      text-align: center;
+      background-color: #dddcdc;
+      color: black;
+      z-index: 15;
+  
+      &:hover {
+        font-weight: bold;
+        background-color: $primaryColor;
+        border: 2px solid black;
+        transition-duration: 0.3s;
+      }
+    }
   }
 }
 
-.directionsBar{
+.directionsBar {
   position: relative;
 }
 

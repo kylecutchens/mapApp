@@ -134,7 +134,14 @@ body {
   z-index: 30;
   margin-bottom: 20px;
 }
-.utilityDiv .display:hover {
+.utilityDiv .display .searchResult {
+  width: 325px;
+  text-align: center;
+  background-color: #dddcdc;
+  color: black;
+  z-index: 15;
+}
+.utilityDiv .display .searchResult:hover {
   font-weight: bold;
   background-color: #ff8000;
   border: 2px solid black;
