@@ -65,6 +65,20 @@ header {
   margin-left: 70px;
 }
 
+.utilityButton{
+
+  background-color: rgb(221, 220, 220);;
+  border: 4px black;
+  border-radius: 100%;
+
+  &:hover{
+    background-color: #f76800;
+    transition-duration: 0.3s;
+  }
+
+
+}
+
 .img-holder {
   max-width: 500px;
 }

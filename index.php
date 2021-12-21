@@ -129,7 +129,11 @@
 
 	<div class='buttonHolder' id='buttonHolder'>
 
-		
+		<button id='directions' class='utilityButton'>
+		<button id='filters' class='utilityButton'>
+		<button id='accessibility' class='utilityButton'>
+		<button id='resources' class='utilityButton'>
+		<button id='information' class='utilityButton'>
 
 	</div>
 
