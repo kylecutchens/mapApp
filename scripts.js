@@ -22,7 +22,10 @@ $(document).ready(function () {
 
     //close button
     $('#closeButton').on('click', function() {
-        let div = $(this).attr('data');
+
+        
+        let div = $(this).attr('data')
+        console.log(div);
         $('#' + div).removeClass('utilityDiv-visible');
     });
 
