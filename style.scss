@@ -81,18 +81,18 @@ header {
 .buttonIcon {
   position: static;
   height: 50px;
-  margin-top: 12px;
+  margin-top: -45px;
 }
 
 .infoBox {
-  visibility: visible;
+  visibility: hidden;
   background-color: #d400ff;
   position: relative;
   z-index: 20;
   height: 40px;
   width: 275px;
   left: 100px;
-  bottom: 43px;
+  bottom: -12px;
   box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
   border-radius: 15%;
 
