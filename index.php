@@ -176,10 +176,7 @@
 			<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Destination">
 			<div class='display' id='destDisplay'></div>
 
-
 		</div>
-
-	</div>
 
 	<div class='utilityDiv' id='filtersDiv'></div>
 
@@ -188,6 +185,7 @@
 	<div class='utilityDiv' id='resourcesDiv'></div>
 
 	<div class='utilityDiv' id='informationDiv'></div>
+
 	</div>
 	<div id='detailsBar' class='detailsBar'>
 
