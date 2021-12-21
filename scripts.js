@@ -1,7 +1,15 @@
 
-//live search bar
+//major functions for website functionality
 $(document).ready(function () {
 
+    //dialogue box when hovering over buttons
+    $(".utilityButton").on('mouseover', function(){
+
+        
+    });
+
+
+    //live search bar
     $('.textInput').on('keyup', function () {
 
         var section = $(this).attr('id');

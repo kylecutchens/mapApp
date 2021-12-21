@@ -131,26 +131,42 @@
 
 		<button id='directions' class='utilityButton'>
 			<img class='buttonIcon' src='images/icons/directions.png'>
+			<div class='infoBox'>
+				
+			</div>
 		</button>
 
 
 		<button id='filters' class='utilityButton'>
 			<img class='buttonIcon' src='images/icons/filters.png'>
+			<div class='infoBox'>
+				
+			</div>
+			
 		</button>
 
 
 		<button id='accessibility' class='utilityButton'>
 			<img class='buttonIcon' src='images/icons/accessibility.png'>
+			<div class='infoBox'>
+				
+			</div>
 		</button>
 
 
 		<button id='resources' class='utilityButton'>
 			<img class='buttonIcon' src='images/icons/resources.png'>
+			<div class='infoBox'>
+				
+			</div>
 		</button>
 
 
 		<button id='information' class='utilityButton'>
 			<img class='buttonIcon' src='images/icons/more.png'>
+			<div class='infoBox'>
+				
+			</div>
 		</button>
 
 
