@@ -65,7 +65,7 @@ header {
 }
 
 .utilityButton {
-  background-color: #c05d07;
+  background-color: #d86705e5;
   border: 2px solid black;
   height: 80px;
   border-radius: 100%;
@@ -73,7 +73,7 @@ header {
   z-index: 20;
 
   &:hover {
-    background-color: #ff00dd;
+    background-color: #ff6600;
     transition-duration: 0.3s;
   }
 }
