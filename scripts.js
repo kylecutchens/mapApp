@@ -1,5 +1,6 @@
 
 //major functions for website functionality
+
 $(document).ready(function () {
 
     //dialogue box when hovering over buttons
@@ -12,7 +13,6 @@ $(document).ready(function () {
         let button = $(this).attr('id')
         $('#' + button + '> div').addClass('infoBox-visible');
     });
-
 
     //live search bar
     $('.textInput').on('keyup', function () {
