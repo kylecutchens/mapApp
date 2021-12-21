@@ -4,11 +4,13 @@ $(document).ready(function () {
 
     //dialogue box when hovering over buttons
     $(".utilityButton").on('hover', function(){
-
         let button = $(this).attr('id')
+        $('#' + button + '> div').addClass('infoBox-visible');   
+    });
 
+    $(".utilityButton").on('mouseout', function(){ 
+        let button = $(this).attr('id')
         $('#' + button + '> div').addClass('infoBox-visible');
-        
     });
 
 
