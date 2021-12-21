@@ -145,6 +145,8 @@ body {
     position: relative;
     float: right;
     padding: 2px;
+    bottom: 20px;
+    right: -20px;
 
     &:hover {
       background-color: $primaryColor;

@@ -136,6 +136,8 @@ body {
   position: relative;
   float: right;
   padding: 2px;
+  bottom: 20px;
+  right: -20px;
 }
 .utilityDiv .closeButton:hover {
   background-color: #ff8000;
