@@ -169,25 +169,27 @@
 
 			<h3>Directions</h3>
 
-			<div id='searchbarHolder' style='position:relative'>
-
+			<div id='originBarHolder'>
 				<input type='text' class='textInput directionsBar' id='originBar' data='originDisplay' placeholder="Enter Starting Point">
 				<div class='display' id='originDisplay'></div>
+			</div>
 
+			<div id='destBarHolder'>
 				<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Destination">
 				<div class='display' id='destDisplay'></div>
-
 			</div>
 
 		</div>
 
-		<div class='utilityDiv' id='filtersDiv'></div>
+	</div>
 
-		<div class='utilityDiv' id='accessibilityDiv'></div>
+	<div class='utilityDiv' id='filtersDiv'></div>
 
-		<div class='utilityDiv' id='resourcesDiv'></div>
+	<div class='utilityDiv' id='accessibilityDiv'></div>
 
-		<div class='utilityDiv' id='informationDiv'></div>
+	<div class='utilityDiv' id='resourcesDiv'></div>
+
+	<div class='utilityDiv' id='informationDiv'></div>
 	</div>
 	<div id='detailsBar' class='detailsBar'>
 
