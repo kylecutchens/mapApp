@@ -16,6 +16,7 @@ header .filterBar {
 }
 header ul {
   position: absolute;
+  left: 20px;
 }
 header .searchResult {
   width: 325px;
