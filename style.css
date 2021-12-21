@@ -128,8 +128,8 @@ body {
   z-index: 40;
 }
 .utilityDiv .display {
-  width: 325px;
-  height: 25vh;
+  position: relative;
+  z-index: 30;
   margin-bottom: 20px;
 }
 
