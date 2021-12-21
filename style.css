@@ -165,6 +165,7 @@ body {
 
 .directionsBar {
   position: relative;
+  width: 325px;
 }
 
 .utilityDiv-visible {
