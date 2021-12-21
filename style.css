@@ -40,7 +40,7 @@ header .searchResult:hover {
   left: 40px;
   height: 65px;
   width: 280px;
-  z-index: 10;
+  z-index: 20;
 }
 
 body {
@@ -69,7 +69,7 @@ body {
   height: 80px;
   border-radius: 100%;
   box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
-  z-index: 20;
+  z-index: 10;
 }
 .utilityButton:hover {
   background-color: #ff8000;
@@ -86,7 +86,7 @@ body {
   visibility: hidden;
   background-color: #dddcdc;
   position: relative;
-  z-index: 20;
+  z-index: 25;
   height: 40px;
   width: 275px;
   left: 100px;
