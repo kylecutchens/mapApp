@@ -132,6 +132,8 @@
 		<button id='directions' class='utilityButton'>
 			<div class='infoBox'>
 
+			<p>Directions</p>
+
 			</div>
 			<img class='buttonIcon' src='images/icons/directions.png' alt='Directions'>
 
@@ -140,6 +142,8 @@
 
 		<button id='filters' class='utilityButton'>
 			<div class='infoBox'>
+
+			<p>More Filters</p>
 
 			</div>
 			<img class='buttonIcon' src='images/icons/filters.png' alt='More Filters'>
@@ -151,6 +155,8 @@
 		<button id='accessibility' class='utilityButton'>
 			<div class='infoBox'>
 
+			<p>Accessibility</p>
+
 			</div>
 			<img class='buttonIcon' src='images/icons/accessibility.png' alt='Accessibility Info'>
 
@@ -160,6 +166,8 @@
 		<button id='resources' class='utilityButton'>
 			<div class='infoBox'>
 
+			<p>More Resources</p>
+
 			</div>
 			<img class='buttonIcon' src='images/icons/resources.png' alt='More Resources'>
 
@@ -168,6 +176,8 @@
 
 		<button id='information' class='utilityButton'>
 			<div class='infoBox'>
+
+			<p>About</p>
 
 			</div>
 			<img class='buttonIcon' src='images/icons/more.png' alt='About'>
