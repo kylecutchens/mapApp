@@ -54,31 +54,26 @@ header {
 }
 
 .buttonHolder {
-
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
   position: absolute;
   width: 80px;
-  top: 200px;
+  top: 150px;
   height: 75vh;
-  margin-left: 70px;
+  margin-left: 40px;
 }
 
-.utilityButton{
-
+.utilityButton {
   background-color: #cb6104;
-  border: 4px black;
+  border: 2px solid black;
   height: 7.5vh;
   border-radius: 100%;
 
-  &:hover{
+  &:hover {
     background-color: #f76800;
     transition-duration: 0.3s;
-
   }
-
-
 }
 
 .img-holder {
