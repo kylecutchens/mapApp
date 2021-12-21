@@ -78,14 +78,20 @@ header {
   }
 }
 
-.buttonIcon{
-  position: relative;
+.buttonIcon {
+  position: static;
   height: 50px;
+  margin-top: 12px;
 }
 
-.infoBox{
-  display: visible;
-  background-color: rgb(212, 0, 255);
+.infoBox {
+  background-color: #d400ff;
+  position: relative;
+  z-index: 20;
+  height: 40px;
+  width: 80px;
+  left: 100px;
+  bottom: 43px;
 }
 
 .img-holder {
