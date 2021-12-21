@@ -133,6 +133,10 @@ body {
   margin-bottom: 20px;
 }
 
+.directionsBar {
+  position: absolute;
+}
+
 .utilityDiv-visible {
   opacity: 1;
   left: 0;
