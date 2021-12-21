@@ -30,6 +30,10 @@ header .searchResult:hover {
   transition-duration: 0.3s;
 }
 
+body {
+  overflow: hidden;
+}
+
 .logo {
   height: 200px;
 }
@@ -45,7 +49,6 @@ header .searchResult:hover {
 .map {
   width: 100%;
   height: 100vh;
-  overflow: hidden;
 }
 
 .buttonHolder {
