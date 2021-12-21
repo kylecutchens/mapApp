@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     $(".utilityButton").on('click', function(){
         let button = $(this).attr('data');
-        $('#' + button).addClass('utilityDiv.visible');
+        $('#' + button).addClass('utilityDiv-visible');
     });
 
     //live search bar
