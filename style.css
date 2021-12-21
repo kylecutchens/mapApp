@@ -27,7 +27,7 @@ header .searchResult {
 header .searchResult:hover {
   font-weight: bold;
   background-color: #ff8000;
-  border-color: black;
+  border: 2px solid black;
   transition-duration: 0.3s;
 }
 

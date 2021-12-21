@@ -33,7 +33,7 @@ header {
     &:hover {
       font-weight: bold;
       background-color: $primaryColor;
-      border-color: black;
+      border: 2px solid black;
       transition-duration: 0.3s;
     }
   }
