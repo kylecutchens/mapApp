@@ -30,10 +30,6 @@ header .searchResult:hover {
   transition-duration: 0.3s;
 }
 
-body {
-  overflow: hidden;
-}
-
 .logo {
   height: 200px;
 }
@@ -44,6 +40,10 @@ body {
   height: 65px;
   width: 280px;
   z-index: 20;
+}
+
+body {
+  overflow: hidden;
 }
 
 .map {
@@ -107,7 +107,7 @@ body {
   left: -400px;
   top: 50px;
   width: 400px;
-  height: 10vh;
+  height: 90vh;
   opacity: 1;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   padding: 1.5rem;
@@ -133,7 +133,7 @@ body {
   right: -400px;
   top: 50px;
   width: 600px;
-  height: 85vh;
+  height: 90vh;
   opacity: 0;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   padding: 1.5rem;
