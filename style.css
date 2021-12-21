@@ -129,10 +129,10 @@ body {
 }
 .utilityDiv .display {
   background-color: #dddcdc;
-  border: #333 solid 2px;
   position: absolute;
   z-index: 30;
   margin-bottom: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .utilityDiv .display .searchResult {
   width: 325px;
