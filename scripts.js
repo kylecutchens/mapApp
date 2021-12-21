@@ -5,7 +5,7 @@ $(document).ready(function () {
     //dialogue box when hovering over buttons
     $(".utilityButton").on('hover', function(){
 
-        $('.buttonIcon').closest('.infoBox').addClass('infoBox-visible');
+        $(this + '> div').addClass('infoBox-visible');
         
     });
 
