@@ -169,11 +169,15 @@
 
 			<h3>Directions</h3>
 
-			<input type='text' class='textInput directionsBar' id='originBar' data='originDisplay' placeholder="Enter Starting Point">
-			<div class='display' id='originDisplay'></div>
+			<div id='searchbarHolder' style='position:relative'>
 
-			<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Starting Point">
-			<div class='display' id='destDisplay'></div>
+				<input type='text' class='textInput directionsBar' id='originBar' data='originDisplay' placeholder="Enter Starting Point">
+				<div class='display' id='originDisplay'></div>
+
+				<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Starting Point">
+				<div class='display' id='destDisplay'></div>
+
+			</div>
 
 		</div>
 
