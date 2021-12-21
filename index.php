@@ -174,7 +174,7 @@
 				<input type='text' class='textInput directionsBar' id='originBar' data='originDisplay' placeholder="Enter Starting Point">
 				<div class='display' id='originDisplay'></div>
 
-				<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Starting Point">
+				<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Destination">
 				<div class='display' id='destDisplay'></div>
 
 			</div>
