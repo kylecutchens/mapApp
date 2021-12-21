@@ -92,6 +92,7 @@ header .searchResult:hover {
 
 .infoBox-visible {
   visibility: visible;
+  transition-duration: 0.5s;
 }
 
 .img-holder {
