@@ -126,62 +126,35 @@
 	<div class='buttonHolder' id='buttonHolder'>
 
 		<button id='directions' class='utilityButton'>
-			<div class='infoBox'>
-
-			<h2>Directions</h2>
-
-			</div>
+			<div class='infoBox'> <h2>Directions</h2> </div>
 			<img class='buttonIcon' src='images/icons/directions.png' alt='Directions'>
-
 		</button>
-
 
 		<button id='filters' class='utilityButton'>
-			<div class='infoBox'>
-
-			<h2>More Filters</h2>
-
-			</div>
+			<div class='infoBox'> <h2>More Filters</h2> </div>
 			<img class='buttonIcon' src='images/icons/filters.png' alt='More Filters'>
-
-
 		</button>
-
 
 		<button id='accessibility' class='utilityButton'>
-			<div class='infoBox'>
-
-			<h2>Accessibility</h2>
-
-			</div>
+			<div class='infoBox'> <h2>Accessibility</h2> </div>
 			<img class='buttonIcon' src='images/icons/accessibility.png' alt='Accessibility Info'>
-
 		</button>
-
 
 		<button id='resources' class='utilityButton'>
-			<div class='infoBox'>
-
-			<h2>More Resources</h2>
-
-			</div>
+			<div class='infoBox'> <h2>More Resources</h2> </div>
 			<img class='buttonIcon' src='images/icons/resources.png' alt='More Resources'>
-
 		</button>
-
 
 		<button id='information' class='utilityButton'>
-			<div class='infoBox'>
-
-			<h2>About</h2>
-
-			</div>
+			<div class='infoBox'> <h2>About</h2> </div>
 			<img class='buttonIcon' src='images/icons/more.png' alt='About'>
-
 		</button>
 
+	</div>
 
+	<div class='utilityDiv' id='directionsDiv'>
 
+	
 	</div>
 
 	<div id='detailsBar' class='detailsBar'>
