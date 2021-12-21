@@ -197,7 +197,7 @@
 
 		<div class='utilityDiv' id='resourcesDiv'>
 
-			<img class='closeButton' data='resourceDiv' src='images/icons/close.png'>
+			<img class='closeButton' data='resourcesDiv' src='images/icons/close.png'>
 
 		</div>
 
