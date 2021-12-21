@@ -69,7 +69,8 @@ header .searchResult:hover {
 }
 
 .buttonIcon {
-  display: visible;
+  position: relative;
+  height: 50px;
 }
 
 .img-holder {
