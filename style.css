@@ -77,7 +77,7 @@ header .searchResult:hover {
 }
 
 .infoBox {
-  visibility: hidden;
+  visibility: visible;
   background-color: #d400ff;
   position: relative;
   z-index: 20;
