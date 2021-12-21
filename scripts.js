@@ -9,7 +9,7 @@ $(document).ready(function () {
         $('#' + button + '> div').addClass('infoBox-visible');   
     });
 
-    $(".utilityButton").on('mouseout', function(){ 
+    $(".utilityButton").on('mouseleave', function(){ 
         let button = $(this).attr('id')
         $('#' + button + '> div').addClass('infoBox-visible');
     });
