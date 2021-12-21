@@ -3,8 +3,9 @@
 $(document).ready(function () {
 
     //dialogue box when hovering over buttons
-    $(".utilityButton").on('mouseover', function(){
+    $(".utilityButton").on('click', function(){
 
+        $(".utilityButton").closest('div').addClass('.infoBox-visible')
         
     });
 

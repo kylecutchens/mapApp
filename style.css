@@ -82,11 +82,11 @@ header .searchResult:hover {
   position: relative;
   z-index: 20;
   height: 40px;
-  width: 80px;
+  width: 275px;
   left: 100px;
   bottom: 43px;
   box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
-  border-radius: 5%;
+  border-radius: 15%;
 }
 
 .infoBox-visible {
