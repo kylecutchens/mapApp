@@ -22,6 +22,7 @@ header .searchResult {
   text-align: center;
   background-color: #dddcdc;
   color: black;
+  z-index: 15;
 }
 header .searchResult:hover {
   font-weight: bold;
@@ -39,7 +40,7 @@ header .searchResult:hover {
   left: 40px;
   height: 65px;
   width: 280px;
-  z-index: 20;
+  z-index: 10;
 }
 
 body {
