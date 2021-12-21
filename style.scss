@@ -85,6 +85,7 @@ header {
 }
 
 .infoBox {
+  visibility: hidden;
   background-color: #d400ff;
   position: relative;
   z-index: 20;
@@ -92,7 +93,18 @@ header {
   width: 80px;
   left: 100px;
   bottom: 43px;
+  box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 5%;
+
+  
 }
+
+.infoBox-visible{
+    visibility: visible;
+    transition-delay: 1s;
+    transition-duration: .5s;
+    transition: left ease;
+  }
 
 .img-holder {
   max-width: 500px;
