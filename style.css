@@ -138,7 +138,7 @@ body {
   width: 325px;
   text-align: center;
   background-color: #dddcdc;
-  border: 2px solid;
+  border: 2px solid #dddcdc;
   color: black;
   z-index: 15;
 }
