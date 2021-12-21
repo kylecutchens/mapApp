@@ -121,10 +121,6 @@
 
 
 
-
-
-
-
 	<div id="map" class='map'></div>
 
 	<div class='buttonHolder' id='buttonHolder'>
