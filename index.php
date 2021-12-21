@@ -154,6 +154,8 @@
 
 	<div class='utilityDiv' id='directionsDiv'>
 
+	<h3>Directions</h3>
+
 	<input type='text' class='textInput directionsBar' id='originBar' data='originDisplay' placeholder="Enter Starting Point">
 	<div class='display' id='originDisplay'></div>
 
