@@ -58,13 +58,13 @@ header .searchResult:hover {
 }
 
 .utilityButton {
-  background-color: #cb6104;
+  background-color: #c05d07;
   border: 2px solid black;
   height: 80px;
   border-radius: 100%;
 }
 .utilityButton:hover {
-  background-color: #f76800;
+  background-color: #ff6a00;
   transition-duration: 0.3s;
 }
 
