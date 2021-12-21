@@ -169,12 +169,12 @@
 
 			<h3>Directions</h3>
 
-			<div>
+			<div style='position:absolute'>
 				<input type='text' class='textInput directionsBar' id='originBar' data='originDisplay' placeholder="Enter Starting Point">
 				<div class='display' id='originDisplay'></div>
 			</div>
 
-			<div>
+			<div style='position:absolute'>
 				<input type='text' class='textInput directionsBar' id='destBar' data='destDisplay' placeholder="Enter Destination">
 				<div class='display' id='destDisplay'></div>
 			</div>
@@ -194,7 +194,7 @@
 
 	</div>
 
-	
+
 	<div id='detailsBar' class='detailsBar'>
 
 		<div>
