@@ -11,7 +11,7 @@ $(document).ready(function () {
 
     $(".utilityButton").on('mouseleave', function(){ 
         let button = $(this).attr('id')
-        $('#' + button + '> div').addClass('infoBox-visible');
+        $('#' + button + '> div').removeClass('infoBox-visible');
     });
 
     //live search bar
