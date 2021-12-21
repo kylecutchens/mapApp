@@ -9,7 +9,7 @@ if (isset($_POST['search'])) {
    $bname = $_POST['search'];
 
 //Search query.
-   $Query = "SELECT * FROM coordinates WHERE bname LIKE '%$bname%' LIMIT 5";
+   $Query = "SELECT * FROM coordinates WHERE bname LIKE '%$bname%' LIMIT 10";
 
 //Query execution
    $ExecQuery = MySQLi_query($con, $Query);
