@@ -16,6 +16,7 @@ $(document).ready(function () {
 
     //show utility div
     $(".utilityButton").on('click', function(){
+        $(".utilityButton").removeClass('utilityDiv-visible');
         let button = $(this).attr('data');
         $('#' + button).addClass('utilityDiv-visible');
     });
