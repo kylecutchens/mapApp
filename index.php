@@ -133,7 +133,7 @@
 			<div class='infoBox'>
 
 			</div>
-			<img class='buttonIcon' src='images/icons/directions.png'>
+			<img class='buttonIcon' src='images/icons/directions.png' alt='Directions'>
 
 		</button>
 
@@ -142,7 +142,7 @@
 			<div class='infoBox'>
 
 			</div>
-			<img class='buttonIcon' src='images/icons/filters.png'>
+			<img class='buttonIcon' src='images/icons/filters.png' alt='More Filters'>
 
 
 		</button>
@@ -152,7 +152,7 @@
 			<div class='infoBox'>
 
 			</div>
-			<img class='buttonIcon' src='images/icons/accessibility.png'>
+			<img class='buttonIcon' src='images/icons/accessibility.png' alt='Accessibility Info'>
 
 		</button>
 
@@ -161,7 +161,7 @@
 			<div class='infoBox'>
 
 			</div>
-			<img class='buttonIcon' src='images/icons/resources.png'>
+			<img class='buttonIcon' src='images/icons/resources.png' alt='More Resources'>
 
 		</button>
 
@@ -170,7 +170,7 @@
 			<div class='infoBox'>
 
 			</div>
-			<img class='buttonIcon' src='images/icons/more.png'>
+			<img class='buttonIcon' src='images/icons/more.png' alt='About'>
 
 		</button>
 
