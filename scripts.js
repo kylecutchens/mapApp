@@ -1,5 +1,5 @@
 
-//major functions for website functionality
+
 
 $(document).ready(function () {
 
@@ -12,6 +12,11 @@ $(document).ready(function () {
     $(".utilityButton").on('mouseleave', function(){ 
         let button = $(this).attr('id')
         $('#' + button + '> div').removeClass('infoBox-visible');
+    });
+
+    $(".utilityButton").on('click', function(){
+        let button = $(this).attr('data');
+        $('#' + button).addClass('utilityDiv.visible');
     });
 
     //live search bar
@@ -102,7 +107,7 @@ function myMap() {
         markers[coord.bcode].addListener("click", () => { showInfoDiv(coord.indx) });
     }
 
-    $("#directions").on('click', function () {
+    $("#getDirections").on('click', function () {
 
         var $origin = $('#coordinate').val();
         var $destination = $('#coordinate2').val();
