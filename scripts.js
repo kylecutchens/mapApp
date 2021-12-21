@@ -21,7 +21,7 @@ $(document).ready(function () {
     });
 
     //close button
-    $('#closeButton').on('click', function() {
+    $('.closeButton').on('click', function() {
 
         
         let div = $(this).attr('data')
