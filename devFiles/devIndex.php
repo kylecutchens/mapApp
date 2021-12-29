@@ -256,7 +256,7 @@
                 <h3> Edit Marker </h3>
 
                 <div class='preSelect'>
-                    <div class='textHolder'><h4>Select Marker to Begin</h4></div>
+                    <div class='textHolder'><h2>Select Marker to Begin</h2></div>
                     
                 </div>
 

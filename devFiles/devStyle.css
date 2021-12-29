@@ -284,8 +284,12 @@ body {
   opacity: 1;
 }
 .preSelect .textholder {
-  opacity: 1;
-  text-align: center;
+  position: relative;
+  top: 30vh;
+}
+.preSelect h2 {
+  color: #ff8000;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=devStyle.css.map */

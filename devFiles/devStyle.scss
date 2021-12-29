@@ -303,9 +303,14 @@ body {
     text-align: center;
     height: 70vh;
     opacity: 1;
-    & .textholder{
-        opacity: 1;
-        text-align: center;
+    & .textholder {
+        position: relative;
+        top: 30vh;
+    }
+    & h2{
+        color: $primaryColor;
+        font-weight: bold;
     }
 }
+
 // jk, one last warning before you ctrl+v
