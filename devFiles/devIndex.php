@@ -256,7 +256,8 @@
                 <h3> Edit Marker </h3>
 
                 <div class='preSelect'>
-                    <h4>Select Marker to Begin</h4>
+                    <div class='textHolder'><h4>Select Marker to Begin</h4></div>
+                    
                 </div>
 
                 <input id='name' class='formBar' placeholder="Building Name">

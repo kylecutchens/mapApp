@@ -283,7 +283,7 @@ body {
   height: 70vh;
   opacity: 1;
 }
-.preSelect h4 {
+.preSelect .textholder {
   opacity: 1;
   text-align: center;
 }
