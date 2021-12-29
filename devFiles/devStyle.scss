@@ -264,15 +264,19 @@ body {
 }
 
 .form {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
+    display: none;
 
     & h3 {
         text-decoration: underline;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         align-self: center;
         color: $primaryColor;
+    }
+
+    .visible {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
     }
 }
 

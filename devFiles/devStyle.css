@@ -244,15 +244,18 @@ body {
 }
 
 .form {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-evenly;
+  display: none;
 }
 .form h3 {
   text-decoration: underline;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-self: center;
   color: #ff8000;
+}
+.form .visible {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
 }
 
 .formBar {

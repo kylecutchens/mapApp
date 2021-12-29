@@ -237,7 +237,7 @@
 
         <div id='toolDiv'>
 
-            <div id='insert' class='form'>
+            <div id='insert' class='form visible'>
 
                 <h3> Insert New Marker </h3>
 
@@ -252,9 +252,15 @@
 
             </div>
 
-            <div id='edit' class='form'></div>
+            <div id='edit' class='form'>
+                <h3> Edit Marker </h3>
 
-            <div id='delete' class='form'></div>
+            </div>
+
+            <div id='delete' class='form'>
+                <h3 class='danger'> Delete Marker </h3>
+
+            </div>
 
         </div>
         
