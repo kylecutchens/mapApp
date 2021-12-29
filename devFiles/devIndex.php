@@ -241,6 +241,12 @@
         
             <div id='toolForm' class='form' data='insert'>
 
+            <div class='preSelect'>
+                <div class='textHolder'>
+                    <h1>Select Marker to Begin</h1>
+                </div>
+            </div>
+
                 <input id='name' class='formBar' placeholder="Building Name">
                 <input id='bcode' class='formBar' placeholder="Building Code">
                 <input id='description' class='formBar' placeholder="Description">
