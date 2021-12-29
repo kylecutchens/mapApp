@@ -236,11 +236,9 @@
         </div>
 
         <div id='toolDiv'>
-
-             
+     
             <h3 class='formTitle'>Insert New Marker</h3>
         
-
             <div id='toolForm' class='form' data='insert'>
 
                 <input id='name' class='formBar' placeholder="Building Name">
