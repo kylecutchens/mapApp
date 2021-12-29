@@ -243,9 +243,6 @@ body {
   width: 30%;
 }
 
-.form {
-  display: none;
-}
 .form h3 {
   text-decoration: underline;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
