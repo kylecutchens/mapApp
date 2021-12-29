@@ -249,7 +249,7 @@
 
                 <input id='name' class='formBar' placeholder="Building Name">
                 <input id='bcode' class='formBar' placeholder="Building Code">
-                <input id='description' class='formBar' placeholder="Description">
+                <textarea id='description' class='formBar' placeholder="Description">
                 <input id='image' class='formBar' placeholder="Image Location">
                 <input id='lat' class='formBar' placeholder="Latitude">
                 <input id='lon' class='formBar' placeholder="Longitude">

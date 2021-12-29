@@ -248,6 +248,9 @@ body {
   flex-flow: column wrap;
   justify-content: space-evenly;
 }
+.form textarea {
+  height: 30vh;
+}
 
 .formTitle {
   text-decoration: underline;
@@ -259,7 +262,7 @@ body {
 .formBar {
   margin: 20px;
   padding: 20px;
-  border-radius: 10vh;
+  border-radius: 2.5vh;
 }
 
 .submit {
