@@ -249,14 +249,8 @@ $(document).ready(function () {
         $('.form').removeClass('form--visible');
         $('#' + selection).addClass('form--visible');
 
-        if(selection == 'edit'){
-            isEdit = true;
-            console.log(isEdit);
-        }
-        else{
-            isEdit= false;
-            console.log(isEdit);
-        }
+        if(selection == 'edit'){ isEdit = true; }
+        else{ isEdit= false; }
     });
 
 });
