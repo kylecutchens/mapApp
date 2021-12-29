@@ -205,6 +205,8 @@ function myMap() {
 
         if (isEdit == true) {
 
+            console.log('You are in edit mode')
+
         }
         else {
             let markerData = coordsArr[indx]
