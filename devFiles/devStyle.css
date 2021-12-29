@@ -280,6 +280,7 @@ body {
   height: 70vh;
   transition-duration: 0.4s;
   opacity: 0.9;
+  display: none;
 }
 .preSelect .textHolder {
   position: relative;

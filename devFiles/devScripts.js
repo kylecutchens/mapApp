@@ -260,7 +260,7 @@ $(document).ready(function () {
         }
         else if(selection == 'edit'){ 
             $('.formTitle').html('Edit Marker');
-            $('.preSelect').attr('style', 'display: inherit');
+            $('.preSelect').attr('style', 'display: inline');
             isEdit = true; 
         }
         else if(selection == 'delete'){ 
