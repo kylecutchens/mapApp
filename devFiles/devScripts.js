@@ -208,7 +208,7 @@ function myMap() {
         if (isEdit == true) {
             
 
-           $('.preSelect').attr('style', 'opacity: 0');
+           $('.preSelect').attr('style', 'visibility: none');
 
            $('#editName').attr('value', markerData.bname);
            $('#editBcode').attr('value', markerData.bcode);
