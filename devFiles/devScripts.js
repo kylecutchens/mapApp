@@ -294,10 +294,10 @@ $(document).ready(function () {
             url = 'delete.php'
         }       
 
-        
+
             $.ajax({
                 type: 'POST',
-                url: 'insert.php',
+                url: url,
                 data: {
                     name: name,
                     bcode: bcode,
