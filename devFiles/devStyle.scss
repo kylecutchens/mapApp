@@ -295,14 +295,14 @@ body {
 }
 
 .preSelect {
-    background-color: $primaryColor;
+    background-color: #333;
     position: absolute;
     top: 12vh;
     left: 1vh;
     width: 33vh;
     text-align: center;
     height: 70vh;
-    opacity: 0.5;
+    opacity: 1;
     & h4{
         opacity: 1;
         text-align: center;
