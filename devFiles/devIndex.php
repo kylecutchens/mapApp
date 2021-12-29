@@ -227,6 +227,14 @@
 
     <div id='toolsBar' class='detailsBar details-pane-visible' style='width: 350px; opacity: 1'>
 
+        <div id='selector' class='selector'>
+
+            <button class='selectorButton' id='insert'>Insert</button>
+            <button class='selectorButton' id='edit'>Edit</button>
+            <button class='selectorButton' id='delete'>Delete</button>
+
+        </div>
+
 
 
     </div>
