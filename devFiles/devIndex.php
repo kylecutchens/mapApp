@@ -239,6 +239,8 @@
 
             <form id='insert' class='form'>
 
+                <h3> Insert New Marker </h3>
+
                 <input id='name' class='formBar' placeholder="Building Name">
                 <input id='bcode' class='formBar' placeholder="Building Code">
                 <input id='description' class='formBar' placeholder="Description">

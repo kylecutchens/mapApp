@@ -254,6 +254,8 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    margin: 20px;
+    margin-bottom: 50px;
 }
 
 .selectorButton{
@@ -263,5 +265,10 @@ body {
 .form{
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
+
+    & h3{
+        text-decoration: underline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
