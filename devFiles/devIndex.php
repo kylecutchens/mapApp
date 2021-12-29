@@ -255,6 +255,17 @@
             <div id='edit' class='form'>
                 <h3> Edit Marker </h3>
 
+                <div class='preSelect'>
+                    <h4>Select Marker to Begin</h4>
+                </div>
+
+                <input id='name' class='formBar' placeholder="Building Name">
+                <input id='bcode' class='formBar' placeholder="Building Code">
+                <input id='description' class='formBar' placeholder="Description">
+                <input id='image' class='formBar' placeholder="Image Location">
+                <input id='lat' class='formBar' placeholder="Latitude">
+                <input id='lon' class='formBar' placeholder="Longitude">
+
             </div>
 
             <div id='delete' class='form'>
