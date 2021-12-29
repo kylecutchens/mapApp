@@ -121,6 +121,8 @@
 
 
 
+<div id='mapHolder' class='mapHolder'>
+
 	<div id="map" class='map'></div>
 
 	<div class='buttonHolder' id='buttonHolder'>
@@ -222,6 +224,8 @@
 
 		<div class='details-pane-content'></div>
 	</div>
+
+</div>
 
 	<script type="text/javascript" src="devScripts.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA8OXkLqtVF7X51RpqSBL5MjTPZqTNdIo&v=beta&callback=myMap"> </script>
