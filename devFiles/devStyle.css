@@ -273,4 +273,15 @@ body {
   padding: 10px;
 }
 
+.preSelect {
+  background-color: #ff8000;
+  position: absolute;
+  top: 12vh;
+  left: 1vh;
+  width: 33vh;
+  text-align: center;
+  height: 70vh;
+  opacity: 0.5;
+}
+
 /*# sourceMappingURL=devStyle.css.map */

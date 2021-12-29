@@ -272,15 +272,13 @@ body {
         align-self: center;
         color: $primaryColor;
     }
-
-    
 }
 
 .form--visible {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-evenly;
-    }
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
 
 .formBar {
     margin: 20px;
@@ -296,4 +294,14 @@ body {
     padding: 10px;
 }
 
+.preSelect {
+    background-color: $primaryColor;
+    position: absolute;
+    top: 12vh;
+    left: 1vh;
+    width: 33vh;
+    text-align: center;
+    height: 70vh;
+    opacity: 0.5;
+}
 // jk, one last warning before you ctrl+v

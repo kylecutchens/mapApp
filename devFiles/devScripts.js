@@ -104,7 +104,7 @@ function myMap() {
         markers[coord.bcode].setMap(map);
         markers[coord.bcode].addListener("mouseover", () => { infowindows[coord.bcode].open({ anchor: markers[coord.bcode], map }) });
         markers[coord.bcode].addListener("mouseout", () => { infowindows[coord.bcode].close() });
-        markers[coord.bcode].addListener("click", () => { showInfoDiv(coord.indx) });
+        markers[coord.bcode].addListener("click", () => { markerClick(coord.indx) });
     }
 
     $("#getDirections").on('click', function () {
@@ -201,12 +201,10 @@ function myMap() {
         }
     }
 
-    function showInfoDiv(indx) {
+    function markerClick(indx) {
 
         if (isEdit == true) {
-
-            console.log('You are in edit mode')
-
+           
         }
         else {
             let markerData = coordsArr[indx]
