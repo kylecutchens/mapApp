@@ -5,6 +5,7 @@ $(document).ready(function () {
 
     //clear search bars on refresh
     $('input').val('');
+    $('textarea').val('');
 
     //open/close dialogue box when hovering over buttons
     $(".utilityButton").on('hover', function () {
