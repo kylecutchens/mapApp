@@ -251,11 +251,11 @@ $(document).ready(function () {
 
         if(selection == 'edit'){
             isEdit = true;
-            console.log('is edit');
+            console.log(isEdit);
         }
         else{
             isEdit= false;
-            console.log('is not edit');
+            console.log(isEdit);
         }
     });
 
