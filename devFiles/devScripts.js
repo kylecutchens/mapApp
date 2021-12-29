@@ -210,12 +210,12 @@ function myMap() {
 
            $('.preSelect').attr('style', 'display: none');
 
-           $('#editName').attr('value', markerData.bname);
-           $('#editBcode').attr('value', markerData.bcode);
-           $('#editDescription').attr('value', markerData.description);
-           $('#editImage').attr('value', markerData.image);
-           $('#editLat').attr('value', markerData.lat);
-           $('#editLon').attr('value', markerData.lon);           
+           $('#name').attr('value', markerData.bname);
+           $('#bcode').attr('value', markerData.bcode);
+           $('#description').attr('value', markerData.description);
+           $('#image').attr('value', markerData.image);
+           $('#lat').attr('value', markerData.lat);
+           $('#lon').attr('value', markerData.lon);           
 
         }
         else {
@@ -237,15 +237,7 @@ function myMap() {
             $detailsDiv.removeClass('details-pane--visible');
         }
 
-
-
-
-
     }
-
-    //dev map tools. this was inevitable.
-
-
 
 
 };
@@ -263,14 +255,17 @@ $(document).ready(function () {
 
         if(selection == 'insert'){
             $('.formTitle').html('Insert New Marker');
+            $('.preSelect').attr('style', 'display: none');
             isEdit = false;
         }
         else if(selection == 'edit'){ 
             $('.formTitle').html('Edit Marker');
+            $('.preSelect').attr('style', 'display: inherit');
             isEdit = true; 
         }
         else if(selection == 'delete'){ 
             $('.formTitle').html('Delete Marker');
+            $('.preSelect').attr('style', 'display: none');
             isEdit= false; 
         }
     });
