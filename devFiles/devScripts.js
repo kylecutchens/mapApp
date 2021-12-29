@@ -4,7 +4,7 @@ var isEdit = false;
 $(document).ready(function () {
 
     //clear search bars on refresh
-    $('.textInput').val('');
+    $('input').val('');
 
     //open/close dialogue box when hovering over buttons
     $(".utilityButton").on('hover', function () {
