@@ -249,7 +249,7 @@ body {
   justify-content: space-evenly;
 }
 .form h3 {
-  text-decoration: bold, underline;
+  text-decoration: underline;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-self: center;
   color: #ff8000;
@@ -259,6 +259,14 @@ body {
   margin: 20px;
   padding: 20px;
   border-radius: 10vh;
+}
+
+.submit {
+  bottom: -421px;
+  position: relative;
+  width: 50%;
+  align-self: center;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=devStyle.css.map */

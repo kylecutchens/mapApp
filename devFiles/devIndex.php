@@ -248,13 +248,13 @@
                 <input id='lat' class='formBar' placeholder="Latitude">
                 <input id='lon' class='formBar' placeholder="Longitude">
             
-                <button id='submit' class='submit'>Submit</button>
+                <button data='insert' class='submit'>Submit</button>
 
             </form>
 
-            <form id='' class='form'></form>
+            <form id='edit' class='form'></form>
 
-            <form id='' class='form'></form>
+            <form id='delete' class='form'></form>
 
         </div>
         

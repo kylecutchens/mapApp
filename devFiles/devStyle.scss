@@ -2,263 +2,256 @@ $primaryColor: #ff8000;
 $secondaryColor: #dddcdc;
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 ul {
-  list-style-type: none;
-  padding-left: 0px;
+    list-style-type: none;
+    padding-left: 0px;
 }
 
-
-
 header {
-  .filterBar {
-    position: absolute;
-    left: 20px;
-    top: 150px;
-    width: 325px;
-    box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
-  }
-
-  ul {
-    position: absolute;
-    left: 20px;
-    top: 180px;
-  }
-
-  .searchResult {
-    width: 325px;
-    border: 2px solid $secondaryColor;
-    text-align: center;
-    background-color: $secondaryColor;
-    color: black;
-    z-index: 15;
-
-    &:hover {
-      font-weight: bold;
-      background-color: $primaryColor;
-      border: 2px solid black;
-      transition-duration: 0.3s;
+    .filterBar {
+        position: absolute;
+        left: 20px;
+        top: 150px;
+        width: 325px;
+        box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
     }
-  }
+
+    ul {
+        position: absolute;
+        left: 20px;
+        top: 180px;
+    }
+
+    .searchResult {
+        width: 325px;
+        border: 2px solid $secondaryColor;
+        text-align: center;
+        background-color: $secondaryColor;
+        color: black;
+        z-index: 15;
+
+        &:hover {
+            font-weight: bold;
+            background-color: $primaryColor;
+            border: 2px solid black;
+            transition-duration: 0.3s;
+        }
+    }
 }
 
 .logo {
-  height: 200px;
+    height: 200px;
 }
 
 .header-container {
-  position: absolute;
-  left: 40px;
-  top: -40px;
-  height: 65px;
-  width: 280px;
-  z-index: 20;
+    position: absolute;
+    left: 40px;
+    top: -40px;
+    height: 65px;
+    width: 280px;
+    z-index: 20;
 }
 
 body {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .map {
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
 
 .buttonHolder {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-evenly;
-  position: absolute;
-  width: 80px;
-  top: 50px;
-  height: 100vh;
-  margin-left: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 80px;
+    top: 50px;
+    height: 100vh;
+    margin-left: 40px;
 }
 
 .utilityButton {
-  background-color: #d86705e5;
-  border: 2px solid black;
-  height: 80px;
-  border-radius: 100%;
-  box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
-  z-index: 10;
+    background-color: #d86705e5;
+    border: 2px solid black;
+    height: 80px;
+    border-radius: 100%;
+    box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
+    z-index: 10;
 
-  &:hover {
-    background-color: $primaryColor;
-    transition-duration: 0.3s;
-  }
+    &:hover {
+        background-color: $primaryColor;
+        transition-duration: 0.3s;
+    }
 }
 
 .buttonIcon {
-  position: static;
-  height: 50px;
-  margin-top: -45px;
+    position: static;
+    height: 50px;
+    margin-top: -45px;
 }
 
 .infoBox {
-  visibility: hidden;
-  background-color: $secondaryColor;
-  position: relative;
-  z-index: 25;
-  height: 40px;
-  width: 275px;
-  left: 100px;
-  bottom: -12px;
-  box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
-  border-radius: 15%;
-  transition: left 0.2s ease, opacity 0.2s ease;
+    visibility: hidden;
+    background-color: $secondaryColor;
+    position: relative;
+    z-index: 25;
+    height: 40px;
+    width: 275px;
+    left: 100px;
+    bottom: -12px;
+    box-shadow: 4px 8px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 15%;
+    transition: left 0.2s ease, opacity 0.2s ease;
 }
 
 .infoBox-visible {
-  visibility: visible;
-  transition-duration: 0.5s;
+    visibility: visible;
+    transition-duration: 0.5s;
 }
 
 .utilityDiv-holder {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-evenly;
-  position: absolute;
-  top: 60px;
-  width: 400px;
-  height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 60px;
+    width: 400px;
+    height: 100vh;
 }
 
 .utilityDiv {
-  background: #fff;
-  border-radius: 4px;
-  border: solid 2px #f76800;
-  left: -500px;
-  width: 500px;
-  top: 7px;
-  height: 18vh;
-  opacity: 1;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  padding: 1.5rem;
-  position: relative;
-  transition: left 0.2s ease, opacity 0.2s ease;
-  z-index: 40;
-
-  .closeButton {
-    border-radius: 100%;
-    max-height: 20px;
-    position: relative;
-    float: right;
-    padding: 2px;
-    bottom: 20px;
-    right: -20px;
-
-    &:hover {
-      background-color: $primaryColor;
-      transition-duration: 0.3s;
-    }
-  }
-
-  .display {
-    background-color: $secondaryColor;
-    position: absolute;
-    z-index: 30;
-    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 4px;
+    border: solid 2px #f76800;
+    left: -500px;
+    width: 500px;
+    top: 7px;
+    height: 18vh;
+    opacity: 1;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 1.5rem;
+    position: relative;
+    transition: left 0.2s ease, opacity 0.2s ease;
+    z-index: 40;
 
-    .searchResult {
-      width: 325px;
-      text-align: center;
-      background-color: $secondaryColor;
-      border: 2px solid $secondaryColor;
-      color: black;
-      z-index: 15;
+    .closeButton {
+        border-radius: 100%;
+        max-height: 20px;
+        position: relative;
+        float: right;
+        padding: 2px;
+        bottom: 20px;
+        right: -20px;
 
-      &:hover {
-        font-weight: bold;
-        background-color: $primaryColor;
-        border: 2px solid black;
-        transition-duration: 0.3s;
-      }
+        &:hover {
+            background-color: $primaryColor;
+            transition-duration: 0.3s;
+        }
     }
-  }
+
+    .display {
+        background-color: $secondaryColor;
+        position: absolute;
+        z-index: 30;
+        margin-bottom: 20px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+        .searchResult {
+            width: 325px;
+            text-align: center;
+            background-color: $secondaryColor;
+            border: 2px solid $secondaryColor;
+            color: black;
+            z-index: 15;
+
+            &:hover {
+                font-weight: bold;
+                background-color: $primaryColor;
+                border: 2px solid black;
+                transition-duration: 0.3s;
+            }
+        }
+    }
 }
 
 .directionsBar {
-  position: relative;
-  width: 325px;
+    position: relative;
+    width: 325px;
 }
 
 .utilityDiv-visible {
-  opacity: 1;
-  left: 0;
-  pointer-events: inherit;
+    opacity: 1;
+    left: 0;
+    pointer-events: inherit;
 }
 
 .img-holder {
-  max-width: 500px;
+    max-width: 500px;
 }
 
 .detailsBar {
-  background: #fff;
-  border-radius: 4px;
-  border: solid 2px #f76800;
-  right: -400px;
-  top: 50px;
-  width: 60vh;
-  height: 90vh;
-  opacity: 0;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  padding: 1.5rem;
-  position: absolute;
-  transition: right 0.2s ease, opacity 0.2s ease;
-
+    background: #fff;
+    border-radius: 4px;
+    border: solid 2px #f76800;
+    right: -400px;
+    top: 50px;
+    width: 60vh;
+    height: 90vh;
+    opacity: 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 1.5rem;
+    position: absolute;
+    transition: right 0.2s ease, opacity 0.2s ease;
 }
 
 .details-pane-visible {
-  opacity: 1;
-  right: 0;
-  pointer-events: inherit;
+    opacity: 1;
+    right: 0;
+    pointer-events: inherit;
 }
 
 .details-pane-close {
-  background: #fff;
-  border: 0;
-  color: #333;
-  transition: background 0.3s ease;
-  float: right;
-  cursor: pointer;
+    background: #fff;
+    border: 0;
+    color: #333;
+    transition: background 0.3s ease;
+    float: right;
+    cursor: pointer;
 }
 
 .details-pane-close:hover {
-  background: #f76800;
+    background: #f76800;
 }
 
 .details-pane-title {
-  color: #f76800;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
+    color: #f76800;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
 .clearDirections {
-  margin: 15px;
-  position: relative;
-  opacity: 0;
+    margin: 15px;
+    position: relative;
+    opacity: 0;
 }
 
 .clearDirections-show {
-  opacity: 1;
+    opacity: 1;
 }
 
 //devtools, don't touch when rewriting later
 
-
-
 //no seriously, dont do it, you'll lose your mind
-
-
 
 //final notice, dont copy over anything below
 
-.selector{
+.selector {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -266,34 +259,35 @@ body {
     margin-bottom: 50px;
 }
 
-.selectorButton{
+.selectorButton {
     width: 30%;
 }
 
-.form{
+.form {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
 
-    & h3{
-        text-decoration: bold, underline;
+    & h3 {
+        text-decoration: underline;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         align-self: center;
         color: $primaryColor;
     }
 }
 
-.formBar{
+.formBar {
     margin: 20px;
     padding: 20px;
     border-radius: 10vh;
 }
 
-
-
-
-
-
-
+.submit {
+    bottom: -421px;
+    position: relative;
+    width: 50%;
+    align-self: center;
+    padding: 10px;
+}
 
 // jk, one last warning before you ctrl+v
