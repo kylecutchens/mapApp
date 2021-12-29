@@ -204,7 +204,7 @@ function myMap() {
     function markerClick(indx) {
 
         if (isEdit == true) {
-           
+           $('.preSelect').attr('style', 'opacity: 0')
         }
         else {
             let markerData = coordsArr[indx]
