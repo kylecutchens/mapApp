@@ -271,4 +271,46 @@ $(document).ready(function () {
         }
     });
 
+    $('.submit').on('click', function(){
+
+        let selection = $('#toolForm').attr('data');
+        let url = '';
+
+        let name = $('#name').val();
+        let bcode = $('#bcode').val();
+        let description = $('#description').val();
+        let image = $('#image').val();
+        let lat = $('#lat').val();
+        let lon = $('#lon').val();
+
+
+        if(selection == 'insert'){
+            url = 'insert.php'
+        }
+        else if(selection == 'edit'){ 
+            url = 'edit.php'
+        }
+        else if(selection == 'delete'){ 
+            url = 'delete.php'
+        }       
+
+        
+            $.ajax({
+                type: 'POST',
+                url: 'insert.php',
+                data: {
+                    name: name,
+                    bcode: bcode,
+                    description: description,
+                    image: image,
+                    lat: lat,
+                    lon: lon,
+                },
+                success: function(){console.log('operation performed successfully')},
+                error: function(){console.log('operation failed')}
+            });
+            
+
+    })
+
 });
