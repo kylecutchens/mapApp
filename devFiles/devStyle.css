@@ -194,6 +194,10 @@ body {
   position: absolute;
   transition: right 0.2s ease, opacity 0.2s ease;
 }
+.detailsBar #devTools {
+  opacity: 1;
+  z-index: 3;
+}
 
 .details-pane-visible {
   opacity: 1;

@@ -209,6 +209,11 @@ body {
   padding: 1.5rem;
   position: absolute;
   transition: right 0.2s ease, opacity 0.2s ease;
+
+  & #devTools{
+      opacity: 1;
+      z-index: 3;
+  }
 }
 
 .details-pane-visible {

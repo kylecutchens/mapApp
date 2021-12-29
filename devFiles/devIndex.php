@@ -225,6 +225,12 @@
 		<div class='details-pane-content'></div>
 	</div>
 
+    <div id='toolsBar' class='detailsBar'>
+
+    
+
+    </div>
+
 
 	<script type="text/javascript" src="devScripts.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA8OXkLqtVF7X51RpqSBL5MjTPZqTNdIo&v=beta&callback=myMap"> </script>
