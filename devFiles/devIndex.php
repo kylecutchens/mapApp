@@ -225,7 +225,7 @@
 		<div class='details-pane-content'></div>
 	</div>
 
-    <div id='toolsBar' class='detailsBar' style='width: 35vh; opacity: 1; background-color:#333'>
+    <div id='toolsBar' class='detailsBar details-pane-visible' style='width: 35vh; opacity: 1; background-color:#333'>
 
         <div id='selector' class='selector'>
 
