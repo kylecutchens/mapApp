@@ -36,7 +36,6 @@ $(document).ready(function () {
         let input = $(this).val();
 
         if (input == "") {
-
             $('#' + display).html("");
         }
         else {
@@ -45,20 +44,16 @@ $(document).ready(function () {
                 url: 'ajax.php',
                 data: { search: input },
                 success: function (result) {
-
                     $('#' + display).html(result).show();
 
                     $($('.searchResult')).on('click', function () {
-
                         let selection = $(this).attr('id');
 
                         $('#' + section).attr('value', selection);
                         $('#' + display).hide();
-
                     });
 
                 },
-
                 error: function () { console.log('live search failed') }
             });
         }
