@@ -237,9 +237,13 @@
 
         <div id='toolDiv'>
 
-            <div id='insert' class='form form--visible'>
+            <head class='formTitle'> 
+                Insert New Marker 
+            </head>
 
-                <h3> Insert New Marker </h3>
+            <div id='insert' class='form'>
+
+                
 
                 <input id='name' class='formBar' placeholder="Building Name">
                 <input id='bcode' class='formBar' placeholder="Building Code">

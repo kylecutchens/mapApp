@@ -258,11 +258,21 @@ $(document).ready(function () {
 
         let selection = $(this).attr('data');
 
-        $('.form').removeClass('form--visible');
-        $('#' + selection).addClass('form--visible');
+        $('#toolForm').attr('data', selection);
+        $('.formBar').attr('value', '');
 
-        if(selection == 'edit'){ isEdit = true; }
-        else{ isEdit= false; }
+        if(selection == 'insert'){
+            $('.formTitle').html('Insert New Marker');
+            isEdit = false;
+        }
+        else if(selection == 'edit'){ 
+            $('.formTitle').html('Edit Marker');
+            isEdit = true; 
+        }
+        else if(selection == 'delete'){ 
+            $('.formTitle').html('Delete Marker');
+            isEdit= false; 
+        }
     });
 
 });
