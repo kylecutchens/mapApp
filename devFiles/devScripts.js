@@ -1,3 +1,5 @@
+var isEdit = false;
+
 //functions for website utilities
 $(document).ready(function () {
 
@@ -5,24 +7,24 @@ $(document).ready(function () {
     $('.textInput').val('');
 
     //open/close dialogue box when hovering over buttons
-    $(".utilityButton").on('hover', function(){
+    $(".utilityButton").on('hover', function () {
         let button = $(this).attr('id')
-        $('#' + button + '> div').addClass('infoBox-visible');   
+        $('#' + button + '> div').addClass('infoBox-visible');
     });
-    $(".utilityButton").on('mouseleave', function(){ 
+    $(".utilityButton").on('mouseleave', function () {
         let button = $(this).attr('id')
         $('#' + button + '> div').removeClass('infoBox-visible');
     });
 
     //show utility div
-    $(".utilityButton").on('click', function(){
+    $(".utilityButton").on('click', function () {
         $(".utilityDiv").removeClass('utilityDiv-visible');
         let button = $(this).attr('data');
         $('#' + button).addClass('utilityDiv-visible');
     });
 
     //close button
-    $('.closeButton').on('click', function() {
+    $('.closeButton').on('click', function () {
         let div = $(this).attr('data')
         $('#' + div).removeClass('utilityDiv-visible');
     });
@@ -59,7 +61,7 @@ $(document).ready(function () {
         }
     });
 
-    });
+});
 
 
 
@@ -201,38 +203,60 @@ function myMap() {
 
     function showInfoDiv(indx) {
 
-        let markerData = coordsArr[indx]
-        const $detailsDiv = $('.detailsBar')
-        const $titleDiv = $('.details-pane-title');
-        const $contentDiv = $('.details-pane-content');
-        const $imageDiv = $('#locationImage');
+        if (isEdit == true) {
+
+        }
+        else {
+            let markerData = coordsArr[indx]
+            const $detailsDiv = $('.detailsBar')
+            const $titleDiv = $('.details-pane-title');
+            const $contentDiv = $('.details-pane-content');
+            const $imageDiv = $('#locationImage');
 
 
-        $detailsDiv.removeClass('details-pane-visible');
+            $detailsDiv.removeClass('details-pane-visible');
 
-        $imageDiv.attr('src', markerData.image);
-        $titleDiv.text(markerData.bname);
-        $contentDiv.text(markerData.description);
+            $imageDiv.attr('src', markerData.image);
+            $titleDiv.text(markerData.bname);
+            $contentDiv.text(markerData.description);
 
-        $detailsDiv.addClass('details-pane-visible');
+            $detailsDiv.addClass('details-pane-visible');
 
-        $detailsDiv.removeClass('details-pane--visible');
+            $detailsDiv.removeClass('details-pane--visible');
+        }
+
+
 
 
 
     }
+
+    //dev map tools. this was inevitable.
+
+
+
+
 };
 
 //scripts for dev tools
 
 $(document).ready(function () {
 
-    $('.selectorButton').on('click', function(){
+    $('.selectorButton').on('click', function () {
 
-        let selection = $(this).attr('data')
+        let selection = $(this).attr('data');
 
         $('.form').removeClass('form--visible');
         $('#' + selection).addClass('form--visible');
+
+        if(selection == 'edit'){
+            isEdit = true;
+            console.log('is edit');
+        }
+        else{
+            isEdit= false;
+            console.log('is not edit');
+        }
     });
 
 });
