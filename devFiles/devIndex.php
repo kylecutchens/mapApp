@@ -225,7 +225,7 @@
 		<div class='details-pane-content'></div>
 	</div>
 
-    <div id='toolsBar' class='detailsBar details-pane-visible '>
+    <div id='toolsBar' class='detailsBar details-pane-visible width: 350px;'>
 
 
 
