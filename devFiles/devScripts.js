@@ -212,7 +212,7 @@ function myMap() {
 
            $('#name').attr('value', markerData.bname);
            $('#bcode').attr('value', markerData.bcode);
-           $('#description').attr('value', markerData.description);
+           $('#description').html(markerData.description);
            $('#image').attr('value', markerData.image);
            $('#lat').attr('value', markerData.lat);
            $('#lon').attr('value', markerData.lon);           
