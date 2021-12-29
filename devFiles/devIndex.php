@@ -225,7 +225,7 @@
 		<div class='details-pane-content'></div>
 	</div>
 
-    <div id='toolsBar' class='detailsBar details-pane-visible' style='width: 350px; opacity: 1'>
+    <div id='toolsBar' class='detailsBar details-pane-visible' style='width: 35vh; opacity: 1'>
 
         <div id='selector' class='selector'>
 
@@ -234,6 +234,29 @@
             <button class='selectorButton' id='delete'>Delete</button>
 
         </div>
+
+        <div id='toolDiv'>
+
+            <form id='insert' class='form'>
+                
+                <input id='name' class='formBar' placeholder="name">
+                <input id='bcode' class='formBar' placeholder="Building Code">
+                <input id='description' class='formBar' placeholder="Description">
+                <input id='image' class='formBar' placeholder="Image Location">
+                <input id='lat' class='formBar' placeholder="Latitude">
+                <input id='lon' class='formBar' placeholder="Longitude">
+            
+                <button id='submit' class='submit'>Submit</button>
+
+            </form>
+
+            <form id='' class='form'></form>
+
+            <form id='' class='form'></form>
+
+        </div>
+        
+        
 
 
 
