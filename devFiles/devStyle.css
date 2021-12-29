@@ -252,7 +252,8 @@ body {
   align-self: center;
   color: #ff8000;
 }
-.form .visible {
+
+.form--visible {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;

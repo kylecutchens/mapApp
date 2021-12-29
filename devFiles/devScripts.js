@@ -222,3 +222,17 @@ function myMap() {
 
     }
 };
+
+//scripts for dev tools
+
+$(document).ready(function () {
+
+    $('.selectorButton').on('click', function(){
+
+        let selection = $(this).attr('data')
+
+        $('.form').removeClass('form--visible');
+        $('#' + selection).addClass('form--visible');
+    });
+
+});

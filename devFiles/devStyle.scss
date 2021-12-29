@@ -273,12 +273,14 @@ body {
         color: $primaryColor;
     }
 
-    .visible {
+    
+}
+
+.form--visible {
         display: flex;
         flex-flow: column wrap;
         justify-content: space-evenly;
     }
-}
 
 .formBar {
     margin: 20px;

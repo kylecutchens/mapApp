@@ -229,15 +229,15 @@
 
         <div id='selector' class='selector'>
 
-            <button class='selectorButton' id='insert'>Insert</button>
-            <button class='selectorButton' id='edit'>Edit</button>
-            <button class='selectorButton' id='delete'>Delete</button>
+            <button class='selectorButton' data='insert'>Insert</button>
+            <button class='selectorButton' data='edit'>Edit</button>
+            <button class='selectorButton' data='delete'>Delete</button>
 
         </div>
 
         <div id='toolDiv'>
 
-            <div id='insert' class='form visible'>
+            <div id='insert' class='form form--visible'>
 
                 <h3> Insert New Marker </h3>
 
