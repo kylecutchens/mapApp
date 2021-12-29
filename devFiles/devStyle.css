@@ -231,7 +231,7 @@ body {
   opacity: 1;
 }
 
-.selectorButton {
+.selector {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
