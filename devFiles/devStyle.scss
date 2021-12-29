@@ -259,3 +259,9 @@ body {
 .selectorButton{
     width: 30%;
 }
+
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly ;
+}

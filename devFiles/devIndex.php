@@ -238,8 +238,8 @@
         <div id='toolDiv'>
 
             <form id='insert' class='form'>
-                
-                <input id='name' class='formBar' placeholder="name">
+
+                <input id='name' class='formBar' placeholder="Building Name">
                 <input id='bcode' class='formBar' placeholder="Building Code">
                 <input id='description' class='formBar' placeholder="Description">
                 <input id='image' class='formBar' placeholder="Image Location">
