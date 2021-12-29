@@ -231,4 +231,11 @@ body {
   opacity: 1;
 }
 
+.selectorButton {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  position: absolute;
+}
+
 /*# sourceMappingURL=devStyle.css.map */

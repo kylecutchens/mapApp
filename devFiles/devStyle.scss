@@ -247,3 +247,12 @@ body {
 .clearDirections-show {
   opacity: 1;
 }
+
+//devtools
+
+.selectorButton{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    position:absolute
+}
