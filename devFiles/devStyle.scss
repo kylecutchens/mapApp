@@ -303,5 +303,9 @@ body {
     text-align: center;
     height: 70vh;
     opacity: 0.5;
+    & h4{
+        opacity: 1;
+        text-align: center;
+    }
 }
 // jk, one last warning before you ctrl+v

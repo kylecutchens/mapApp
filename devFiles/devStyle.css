@@ -283,5 +283,9 @@ body {
   height: 70vh;
   opacity: 0.5;
 }
+.preSelect h4 {
+  opacity: 1;
+  text-align: center;
+}
 
 /*# sourceMappingURL=devStyle.css.map */
