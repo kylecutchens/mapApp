@@ -211,7 +211,7 @@ function myMap() {
            $('.preSelect').attr('style', 'opacity: 0');
 
            $('#editName').attr('value', markerData.bname);
-           $('#editBcode').attr('value', markerData.bcdoe);
+           $('#editBcode').attr('value', markerData.bcode);
            $('#editDescription').attr('value', markerData.description);
            $('#editImage').attr('value', markerData.image);
            $('#editLat').attr('value', markerData.lat);
