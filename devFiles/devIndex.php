@@ -225,9 +225,9 @@
 		<div class='details-pane-content'></div>
 	</div>
 
-    <div id='toolsBar' class='detailsBar'>
+    <div id='toolsBar' class='detailsBar details-pane-visible '>
 
-    
+
 
     </div>
 
