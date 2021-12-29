@@ -237,7 +237,7 @@
 
         <div id='toolDiv'>
 
-            <form id='insert' class='form'>
+            <div id='insert' class='form'>
 
                 <h3> Insert New Marker </h3>
 
@@ -250,11 +250,11 @@
             
                 <button data='insert' class='submit'>Submit</button>
 
-            </form>
+            </div>
 
-            <form id='edit' class='form'></form>
+            <div id='edit' class='form'></div>
 
-            <form id='delete' class='form'></form>
+            <div id='delete' class='form'></div>
 
         </div>
         
