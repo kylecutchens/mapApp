@@ -203,11 +203,23 @@ function myMap() {
 
     function markerClick(indx) {
 
+        let markerData = coordsArr[indx]
+
         if (isEdit == true) {
-           $('.preSelect').attr('style', 'opacity: 0')
+            
+
+           $('.preSelect').attr('style', 'opacity: 0');
+
+           $('#editName').attr('value', markerData.bname);
+           $('#editBcode').attr('value', markerData.bcdoe);
+           $('#editDescription').attr('value', markerData.description);
+           $('#editImage').attr('value', markerData.image);
+           $('#editLat').attr('value', markerData.lat);
+           $('#editLon').attr('value', markerData.lon);           
+
         }
         else {
-            let markerData = coordsArr[indx]
+            
             const $detailsDiv = $('.detailsBar')
             const $titleDiv = $('.details-pane-title');
             const $contentDiv = $('.details-pane-content');
