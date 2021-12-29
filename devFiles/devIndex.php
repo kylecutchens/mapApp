@@ -237,13 +237,11 @@
 
         <div id='toolDiv'>
 
-            <head class='formTitle'> 
-                Insert New Marker 
-            </head>
+             
+            <h3 class='formTitle'>Insert New Marker</h3>
+        
 
-            <div id='insert' class='form'>
-
-                
+            <div id='toolForm' class='form' data='insert'>
 
                 <input id='name' class='formBar' placeholder="Building Name">
                 <input id='bcode' class='formBar' placeholder="Building Code">
@@ -252,29 +250,7 @@
                 <input id='lat' class='formBar' placeholder="Latitude">
                 <input id='lon' class='formBar' placeholder="Longitude">
             
-                <button data='insert' class='submit'>Submit</button>
-
-            </div>
-
-            <div id='edit' class='form'>
-                <h3> Edit Marker </h3>
-
-                <div class='preSelect'>
-                    <div class='textHolder'><h1>Select Marker to Begin</h1></div>
-                    
-                </div>
-
-                <input id='editName' class='formBar' placeholder="Building Name">
-                <input id='editBcode' class='formBar' placeholder="Building Code">
-                <input id='editDescription' class='formBar' placeholder="Description">
-                <input id='editImage' class='formBar' placeholder="Image Location">
-                <input id='editLat' class='formBar' placeholder="Latitude">
-                <input id='editLon' class='formBar' placeholder="Longitude">
-
-            </div>
-
-            <div id='delete' class='form'>
-                <h3 class='danger'> Delete Marker </h3>
+                <button class='submit'>Submit</button>
 
             </div>
 
