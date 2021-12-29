@@ -303,11 +303,11 @@ body {
     text-align: center;
     height: 70vh;
     opacity: 1;
-    & .textholder {
+    & .textHolder {
         position: relative;
         top: 30vh;
     }
-    & h2{
+    & h1{
         color: $primaryColor;
         font-weight: bold;
     }

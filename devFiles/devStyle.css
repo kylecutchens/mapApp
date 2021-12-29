@@ -283,11 +283,11 @@ body {
   height: 70vh;
   opacity: 1;
 }
-.preSelect .textholder {
+.preSelect .textHolder {
   position: relative;
   top: 30vh;
 }
-.preSelect h2 {
+.preSelect h1 {
   color: #ff8000;
   font-weight: bold;
 }
