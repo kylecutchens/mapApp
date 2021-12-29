@@ -252,7 +252,7 @@ body {
 .formTitle {
   text-decoration: underline;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  align-self: center;
+  text-align: center;
   color: #ff8000;
 }
 
