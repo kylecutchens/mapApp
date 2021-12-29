@@ -9,8 +9,7 @@ ul {
 
 .mapHolder {
   max-width: 70%;
-  margin: 20px;
-  border-radius: 2rem;
+  border-radius: 15%;
 }
 
 header .filterBar {
