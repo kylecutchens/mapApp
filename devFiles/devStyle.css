@@ -237,4 +237,8 @@ body {
   justify-content: space-evenly;
 }
 
+.selectorButton {
+  width: 30%;
+}
+
 /*# sourceMappingURL=devStyle.css.map */
