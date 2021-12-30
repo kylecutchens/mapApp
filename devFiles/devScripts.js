@@ -275,12 +275,12 @@ $(document).ready(function () {
 
         let selection = $('#toolForm').attr('data');
 
-        let name = $('#name').val();
-        let bcode = $('#bcode').val();
-        let description = $('#description').val();
-        let image = $('#image').val();
-        let lat = $('#lat').val();
-        let lon = $('#lon').val();
+        let name = $('#name').attr('value');
+        let bcode = $('#bcode').attr('value');
+        let description = $('#description').attr('value');
+        let image = $('#image').attr('value');
+        let lat = $('#lat').attr('value');
+        let lon = $('#lon').attr('value');
 
         if (name || bcode == '') {
             console.log('no valid marker data found');
