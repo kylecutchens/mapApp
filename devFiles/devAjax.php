@@ -5,7 +5,7 @@
 
     if(isset($_POST['name'])){
 
-        $operation = $_POST['selection'];
+        $operation = 'insert';
         $name = $_POST['name'];
         $code = $_POST['bcode'];
         $description = $_POST['description'];
