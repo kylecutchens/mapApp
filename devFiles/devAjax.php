@@ -45,6 +45,10 @@
         }
 
     }
+    else
+    {
+        echo 'Query Failed';
+    }
 
 
 
