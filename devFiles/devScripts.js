@@ -284,14 +284,11 @@ $(document).ready(function () {
 
         console.log(name, bcode, description, image, lat, lon);
 
-        
-        if (!name || !bcode){
+
+        if (!name || !bcode) {
             console.log('no valid marker data found');
         }
         else {
-            console.log(name, bcode, description, image, lat, lon);
-
-            /*
             $.ajax({
                 type: 'POST',
                 url: 'devAjax.php',
@@ -306,7 +303,7 @@ $(document).ready(function () {
                 },
                 success: function (result) { console.log(result) },
                 error: function (result) { console.log(result) }
-            });*/
+            });
         }
 
     })
