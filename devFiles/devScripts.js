@@ -282,13 +282,16 @@ $(document).ready(function () {
         let lat = $('#lat').attr('value');
         let lon = $('#lon').attr('value');
 
+        console.log(name, bcode, description, image, lat, lon);
+
+        /*
         if (name || bcode == '') {
             console.log('no valid marker data found');
         }
         else {
-            console.log('valid marker data found')
+            console.log(name, bcode)
 
-            /*
+            
             $.ajax({
                 type: 'POST',
                 url: 'devAjax.php',
@@ -303,8 +306,8 @@ $(document).ready(function () {
                 },
                 success: function (result) { console.log(result) },
                 error: function (result) { console.log(result) }
-            });*/
-        }
+            });
+        }*/
 
     })
 
