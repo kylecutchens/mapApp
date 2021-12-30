@@ -15,8 +15,9 @@
 
         $Result = 'Query Failed';
 
-        switch ($operation) {
+      /*   switch ($operation) {
 
+                       
             case 'insert':
                 $selectQuery = $con -> query("INSERT INTO coordinatesTest VALUES ($name, $code, $description, $image, $lat, $lon)");
                 if($selectQuery){
@@ -43,8 +44,9 @@
             case 'delete':
                 $Result = "Don't try to delete my shit, man";
                 break;
+              
 
-        }
+        }  */
 
     }
     else
