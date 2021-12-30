@@ -282,7 +282,7 @@ $(document).ready(function () {
         let lat = $('#lat').val();
         let lon = $('#lon').val();
 
-        if (name && bcode == '') {
+        if (name || bcode == '') {
             console.log('no valid marker data found');
         }
         else {
@@ -298,8 +298,8 @@ $(document).ready(function () {
                     lat: lat,
                     lon: lon,
                 },
-                success: function () { console.log('operation performed successfully') },
-                error: function () { console.log('operation failed') }
+                success: function (result) { console.log(result) },
+                error: function (result) { console.log(result) }
             });
         }
 
