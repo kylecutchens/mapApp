@@ -301,7 +301,7 @@ $(document).ready(function () {
                     lat: lat,
                     lon: lon,
                 },
-                success: function (result) { console.log(result) },
+                success: function (result) { console.log('worked?') },
                 error: function (result) { console.log('failed') }
             });
         }
