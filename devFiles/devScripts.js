@@ -286,6 +286,9 @@ $(document).ready(function () {
             console.log('no valid marker data found');
         }
         else {
+            console.log('valid marker data found')
+
+            /*
             $.ajax({
                 type: 'POST',
                 url: 'devAjax.php',
@@ -300,7 +303,7 @@ $(document).ready(function () {
                 },
                 success: function (result) { console.log(result) },
                 error: function (result) { console.log(result) }
-            });
+            });*/
         }
 
     })
