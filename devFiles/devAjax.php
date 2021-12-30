@@ -13,7 +13,7 @@
         $lat = $_POST['lat'];
         $lon = $_POST['lon'];
 
-        $Result = '';
+        $Result = 'Query Failed';
 
         switch ($operation) {
 
