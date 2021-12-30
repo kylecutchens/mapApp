@@ -293,7 +293,7 @@ $(document).ready(function () {
                 type: 'POST',
                 url: 'devAjax.php',
                 data: {
-                    operation: selection,
+                    //operation: selection,
                     name: name,
                     bcode: bcode,
                     description: description,
