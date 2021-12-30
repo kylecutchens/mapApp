@@ -13,15 +13,17 @@
         $lat = $_POST['lat'];
         $lon = $_POST['lon'];
 
+        $Result = '';
+
         switch ($operation) {
 
             case 'insert':
                 $selectQuery = $con -> query("INSERT INTO coordinatesTest VALUES ($name, $code, $description, $image, $lat, $lon)");
                 if($selectQuery){
-                    echo "New Record Created Successfully";
+                    $Result = "New Record Created Successfully";
                 }
                 else{
-                    echo "New Record Failed";
+                    $Result = "New Record Failed";
                 }
                 break;
 
@@ -31,15 +33,15 @@
                      SET bname = '$name' bcode = '$code' description = '$description' image = '$image' lat = '$lat' lon = '$lon'
                      WHERE bcode = $bcode");
                 if($editQuery){
-                    echo "New Record Created Successfully";
+                    $Result = "New Record Created Successfully";
                 }
                 else{
-                    echo "New Record Failed";
+                    $Result = "New Record Failed";
                 }
                 break;
 
             case 'delete':
-                echo "Don't try to delete my shit, man";
+                $Result = "Don't try to delete my shit, man";
                 break;
 
         }
@@ -47,7 +49,7 @@
     }
     else
     {
-        echo 'Query Failed';
+        echo $Result;
     }
 
 
