@@ -207,20 +207,20 @@ function myMap() {
         let markerData = coordsArr[indx]
 
         if (isEdit == true) {
-            
 
-           $('.preSelect').attr('style', 'display: none');
 
-           $('#name').attr('value', markerData.bname);
-           $('#bcode').attr('value', markerData.bcode);
-           $('#description').attr('value', markerData.description);
-           $('#image').attr('value', markerData.image);
-           $('#lat').attr('value', markerData.lat);
-           $('#lon').attr('value', markerData.lon);           
+            $('.preSelect').attr('style', 'display: none');
+
+            $('#name').attr('value', markerData.bname);
+            $('#bcode').attr('value', markerData.bcode);
+            $('#description').attr('value', markerData.description);
+            $('#image').attr('value', markerData.image);
+            $('#lat').attr('value', markerData.lat);
+            $('#lon').attr('value', markerData.lon);
 
         }
         else {
-            
+
             const $detailsDiv = $('.detailsBar')
             const $titleDiv = $('.details-pane-title');
             const $contentDiv = $('.details-pane-content');
@@ -254,27 +254,26 @@ $(document).ready(function () {
         $('#toolForm').attr('data', selection);
         $('.formBar').attr('value', '');
 
-        if(selection == 'insert'){
+        if (selection == 'insert') {
             $('.formTitle').html('Insert New Marker');
             $('.preSelect').attr('style', 'display: none');
             isEdit = false;
         }
-        else if(selection == 'edit'){ 
+        else if (selection == 'edit') {
             $('.formTitle').html('Edit Marker');
             $('.preSelect').attr('style', 'display: inline');
-            isEdit = true; 
+            isEdit = true;
         }
-        else if(selection == 'delete'){ 
+        else if (selection == 'delete') {
             $('.formTitle').html('Delete Marker');
             $('.preSelect').attr('style', 'display: none');
-            isEdit= false; 
+            isEdit = false;
         }
     });
 
-    $('.submit').on('click', function(){
+    $('.submit').on('click', function () {
 
         let selection = $('#toolForm').attr('data');
-        let url = '';
 
         let name = $('#name').val();
         let bcode = $('#bcode').val();
@@ -283,22 +282,15 @@ $(document).ready(function () {
         let lat = $('#lat').val();
         let lon = $('#lon').val();
 
-
-        if(selection == 'insert'){
-            url = 'insert.php'
+        if (name && bcode == '') {
+            console.log('no valid marker data found');
         }
-        else if(selection == 'edit'){ 
-            url = 'edit.php'
-        }
-        else if(selection == 'delete'){ 
-            url = 'delete.php'
-        }       
-
-
+        else {
             $.ajax({
                 type: 'POST',
-                url: url,
+                url: 'devAjax.php',
                 data: {
+                    operation: selection,
                     name: name,
                     bcode: bcode,
                     description: description,
@@ -306,10 +298,10 @@ $(document).ready(function () {
                     lat: lat,
                     lon: lon,
                 },
-                success: function(){console.log('operation performed successfully')},
-                error: function(){console.log('operation failed')}
+                success: function () { console.log('operation performed successfully') },
+                error: function () { console.log('operation failed') }
             });
-            
+        }
 
     })
 
