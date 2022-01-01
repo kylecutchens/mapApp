@@ -294,7 +294,7 @@ $(document).ready(function () {
                 url: 'devAjax.php',
                 dataType: 'text',
                 data: {
-                    //operation: selection,
+                    operation: selection,
                     name: name,
                     bcode: bcode,
                     description: description,
@@ -303,7 +303,7 @@ $(document).ready(function () {
                     lon: lon,
                 },
                 success: function (result) { console.log(result) },
-                error: function (result) { console.log('failed') }
+                error: function (result) { console.log(result) }
             });
         }
 
