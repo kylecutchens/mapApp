@@ -28,14 +28,14 @@
                    echo "New Record Failed";
                 }
                 break;
-
+/*
             case 'edit':
                 $editQuery = $con -> query(
                     "UPDATE coordinatesTest 
                      SET bname = '$name' bcode = '$code' description = '$description' image = '$image' lat = '$lat' lon = '$lon'
                      WHERE bcode = $bcode");
                 if($editQuery){
-                   echo "New Record Created Successfully";
+                   echo "Record Updated Successfully";
                 }
                 else{
                    echo "New Record Failed";
@@ -45,7 +45,7 @@
             case 'delete':
                echo "Don't try to delete my shit, man";
                 break;
-              
+*/        
 
         }  
 
