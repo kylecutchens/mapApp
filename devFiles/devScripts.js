@@ -303,7 +303,7 @@ $(document).ready(function () {
                     lon: lon,
                 },
                 success: function (result) { console.log(result) },
-                error: function (result) { console.log(result) }
+                error: function (result) { console.log('failed') }
             });
         }
 

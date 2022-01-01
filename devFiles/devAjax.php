@@ -48,6 +48,8 @@
 
         }  */
 
+        echo 'Information Received: ' . $name . ', ' . $code . ', ' . $description . ', ' . $image . ', ' . $lat . ', ' . $lon;
+
     }
     else
     {
