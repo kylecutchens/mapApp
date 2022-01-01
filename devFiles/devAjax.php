@@ -15,16 +15,17 @@
 
         $Result = 'Query Failed';
 
-      /*   switch ($operation) {
+         switch ($operation) {
 
                        
             case 'insert':
+                
                 $selectQuery = $con -> query("INSERT INTO coordinatesTest VALUES ($name, $code, $description, $image, $lat, $lon)");
                 if($selectQuery){
-                    $Result = "New Record Created Successfully";
+                   echo "New Record Created Successfully";
                 }
                 else{
-                    $Result = "New Record Failed";
+                   echo "New Record Failed";
                 }
                 break;
 
@@ -34,26 +35,26 @@
                      SET bname = '$name' bcode = '$code' description = '$description' image = '$image' lat = '$lat' lon = '$lon'
                      WHERE bcode = $bcode");
                 if($editQuery){
-                    $Result = "New Record Created Successfully";
+                   echo "New Record Created Successfully";
                 }
                 else{
-                    $Result = "New Record Failed";
+                   echo "New Record Failed";
                 }
                 break;
 
             case 'delete':
-                $Result = "Don't try to delete my shit, man";
+               echo "Don't try to delete my shit, man";
                 break;
               
 
-        }  */
+        }  
 
         echo 'Information Received: ' . $name . ', ' . $code . ', ' . $description . ', ' . $image . ', ' . $lat . ', ' . $lon;
-
+        
     }
     else
     {
-        echo $Result;
+       echo 'Query Failed: ' .  mysqli_error($con);
     }
 
 
