@@ -292,7 +292,7 @@ $(document).ready(function () {
             $.ajax({
                 type: 'POST',
                 url: 'devAjax.php',
-                dataType: text,
+                dataType: 'text',
                 data: {
                     //operation: selection,
                     name: name,
