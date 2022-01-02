@@ -81,7 +81,7 @@
 			return $input;
 		};
 
-		$markerData = $con->query("SELECT * FROM coordinates ORDER BY indx");
+		$markerData = $con->query("SELECT * FROM coordinatesTest ORDER BY indx");
 
 		$r = array();
 		$count = 0;
