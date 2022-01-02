@@ -94,8 +94,15 @@
 
 		?>
 
-		<input type='text' style='z-index: 20;' class='filterBar textInput' id='filterbar' data='filterDisplay' placeholder='Search for buildings here'>
-		<div class='display' style='z-index: 20;' id='filterDisplay'></div>
+		<div id='header-container' class='header-container'>
+
+			<img class='logo' src='images/misc/logo.png' alt='Mercer University Logo'>
+
+			<input type='text' class='filterBar textInput' id='filterbar' data='filterDisplay' placeholder='Search for buildings here'>
+			<div class='display' id='filterDisplay'></div>
+
+
+		</div>
 
 		<div style="display: none" id='totalCoords'><?php echo json_encode(utf8ize($r)); ?></div>
 	</header>
