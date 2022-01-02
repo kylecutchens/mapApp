@@ -285,7 +285,7 @@ $(document).ready(function () {
         console.log(name, bcode, description, image, lat, lon);
 
 
-        if (!name || !bcode) {
+        if (!name || !bcode || !lat || !lon) {
             console.log('no valid marker data found');
         }
         else {

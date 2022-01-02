@@ -3,7 +3,7 @@
         error_reporting(E_ALL);
         ini_set('display_errors', 'On');
         mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-        
+
     $con = new mysqli('localhost', 'root', 'xXdBLnejWq3h9s', 'mapApp');
    
     //if(isset($_POST['name'])){
@@ -23,15 +23,14 @@
         $maxIndx = $maxIndx + 1;
 
 
-        $Result = 'Query Failed';
-
+    if(isset($_POST['name'])){
          switch ($operation) {
 
                        
             case 'insert':
                 
                $selectQuery = $con -> query("INSERT INTO `coordinatesTest` (`bname`, `bcode`, `description`, `image`, `lat`, `lon`, `indx`) VALUES ('$name', '$code', '$description', '$image', '$lat', '$lon', '$maxIndx');"); 
-              // $selectQuery = 'piss and shit and also fuck';
+        
                 if($selectQuery){
                    echo "New Record Created Successfully ";
                 }
@@ -39,7 +38,7 @@
                    echo 'Query Failed: ' .  mysqli_error($con);
                 }
                 break;
-/*
+
             case 'edit':
                 $editQuery = $con -> query(
                     "UPDATE coordinatesTest 
@@ -55,15 +54,12 @@
 
             case 'delete':
                echo "Don't try to delete my shit, man";
-                break;
-*/        
+                break;       
 
-        } 
-
-        echo 'Information Received: ' . $name . ', ' . $code . ', ' . $description . ', ' . $image . ', ' . $lat . ', ' . $lon . ', ' . $maxIndx;
-        
-            //}
-  //  else
-  //  {
- //      echo 'Query Failed: ' .  mysqli_error($con);
-  //  }
+            echo 'Information Received: ' . $name . ', ' . $code . ', ' . $description . ', ' . $image . ', ' . $lat . ', ' . $lon . ', ' . $maxIndx;
+            
+         }
+        }
+        else{
+            echo "Query Failed" . mysqli_error($con);
+        }
