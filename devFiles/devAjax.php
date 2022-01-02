@@ -1,8 +1,11 @@
 <?php 
 
+        error_reporting(E_ALL);
+        ini_set('display_errors', 'On');
+        mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+        
     $con = new mysqli('localhost', 'root', 'xXdBLnejWq3h9s', 'mapApp');
-    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-
+   
     //if(isset($_POST['name'])){
 
         $operation = $_POST['operation'];
