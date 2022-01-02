@@ -3,7 +3,7 @@
     $con = new mysqli('localhost', 'root', 'xXdBLnejWq3h9s', 'mapApp');
     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-    if(isset($_POST['name'])){
+    //if(isset($_POST['name'])){
 
         $operation = 'insert';
         $name = $_POST['name'];
@@ -20,12 +20,14 @@
                        
             case 'insert':
                 
-                $selectQuery = $con -> query("INSERT INTO coordinatesTest VALUES ($name, $code, $description, $image, $lat, $lon)");
+                $selectQuery = $con -> query(
+                    "INSERT INTO coordinatesTest (bname, bcode, description, image, lat, lon indx)
+                    VALUES ($name, $code, $description, $image, $lat, $lon, $indx)");
                 if($selectQuery){
                    echo "New Record Created Successfully";
                 }
                 else{
-                   echo "New Record Failed";
+                    echo 'Query Failed: ' .  mysqli_error($con);
                 }
                 break;
 /*
@@ -38,7 +40,7 @@
                    echo "Record Updated Successfully";
                 }
                 else{
-                   echo "New Record Failed";
+                   echo 'Query Failed: ' .  mysqli_error($con);
                 }
                 break;
 
@@ -47,16 +49,12 @@
                 break;
 */        
 
-        }  
+      //  }  
 
         echo 'Information Received: ' . $name . ', ' . $code . ', ' . $description . ', ' . $image . ', ' . $lat . ', ' . $lon;
         
     }
-    else
-    {
-       echo 'Query Failed: ' .  mysqli_error($con);
-    }
-
-
-
-?>
+  //  else
+  //  {
+ //      echo 'Query Failed: ' .  mysqli_error($con);
+  //  }
