@@ -27,8 +27,8 @@
                        
             case 'insert':
                 
-               // $selectQuery = $con -> query("INSERT INTO `coordinatesTest` (`bname`, `bcode`, `description`, `image`, `lat`, `lon`, `indx`) VALUES ('$name', '$code', '$description', '$image', '$lat', '$lon', '$maxIndx');"); 
-               $selectQuery = 'piss and shit and also fuck';
+               $selectQuery = $con -> query("INSERT INTO `coordinatesTest` (`bname`, `bcode`, `description`, `image`, `lat`, `lon`, `indx`) VALUES ('$name', '$code', '$description', '$image', '$lat', '$lon', '$maxIndx');"); 
+              // $selectQuery = 'piss and shit and also fuck';
                 if($selectQuery){
                    echo "New Record Created Successfully ";
                 }
