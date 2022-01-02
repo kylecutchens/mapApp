@@ -42,7 +42,7 @@
 
 	--->
 
-		
+
 		<?php
 
 		/*code for connecting to phpmyadmin database. */
@@ -64,77 +64,80 @@
 
 
 
-	<?php
+		<?php
 
-	global $con;
+		global $con;
 
-	function utf8ize($input)
-	{
+		function utf8ize($input)
+		{
 
-		if (is_array($input)) {
-			foreach ($input as $k => $v) {
-				$input[$k] = utf8ize($v);
+			if (is_array($input)) {
+				foreach ($input as $k => $v) {
+					$input[$k] = utf8ize($v);
+				}
+			} else if (is_string($input)) {
+				return utf8_encode($input);
 			}
-		} else if (is_string($input)) {
-			return utf8_encode($input);
+			return $input;
+		};
+
+		$markerData = $con->query("SELECT * FROM coordinates ORDER BY indx");
+
+		$r = array();
+		$count = 0;
+
+		while ($row = mysqli_fetch_assoc($markerData)) {
+
+			$r[] = $row;
+			$count = $count + 1;
 		}
-		return $input;
-	};
 
-	$markerData = $con->query("SELECT * FROM coordinates ORDER BY indx");
+		?>
 
-	$r = array();
-	$count = 0;
+		<input type='text' class='filterBar textInput' id='filterbar' data='filterDisplay' placeholder='Search for buildings here'>
 
-	while ($row = mysqli_fetch_assoc($markerData)) {
+		<div style="display: none" id='totalCoords'><?php echo json_encode(utf8ize($r)); ?></div>
+	</header>
 
-		$r[] = $row;
-		$count = $count + 1;
-	}
-
-	?>
-
-
-	<div style="display: none" id='totalCoords'><?php echo json_encode(utf8ize($r)); ?></div>
-	
+<body>
 	<div id="map" class='map'></div>
 
-    <div id='toolsBar' class='detailsBar details-pane-visible' style='width: 35vh; opacity: 1; background-color:#333'>
+	<div id='toolsBar' class='detailsBar details-pane-visible' style='width: 35vh; opacity: 1; background-color:#333'>
 
-        <div id='selector' class='selector'>
+		<div id='selector' class='selector'>
 
-            <button class='selectorButton' data='insert'>Insert</button>
-            <button class='selectorButton' data='edit'>Edit</button>
-            <button class='selectorButton' data='delete'>Delete</button>
+			<button class='selectorButton' data='insert'>Insert</button>
+			<button class='selectorButton' data='edit'>Edit</button>
+			<button class='selectorButton' data='delete'>Delete</button>
 
-        </div>
+		</div>
 
-        <div id='toolDiv'>
-     
-            <h3 class='formTitle'>Insert New Marker</h3>
-        
-            <div id='toolForm' class='form' data='insert'>
+		<div id='toolDiv'>
 
-            <div class='preSelect'>
-                <div class='textHolder'>
-                    <h1>Select Marker to Begin</h1>
-                </div>
-            </div>
+			<h3 class='formTitle'>Insert New Marker</h3>
 
-                <input id='name' class='formBar' placeholder="Building Name">
-                <input id='bcode' class='formBar' placeholder="Building Code">
-                <textarea id='description' class='formBar' placeholder="Description"></textarea>
-                <input id='image' class='formBar' placeholder="Image Location">
-                <input id='lat' class='formBar' placeholder="Latitude">
-                <input id='lon' class='formBar' placeholder="Longitude">
-            
-                <button class='submit'>Submit</button>
+			<div id='toolForm' class='form' data='insert'>
 
-            </div>
+				<div class='preSelect'>
+					<div class='textHolder'>
+						<h1>Select Marker to Begin</h1>
+					</div>
+				</div>
 
-        </div>
-        
-    </div>
+				<input id='name' class='formBar' placeholder="Building Name">
+				<input id='bcode' class='formBar' placeholder="Building Code">
+				<textarea id='description' class='formBar' placeholder="Description"></textarea>
+				<input id='image' class='formBar' placeholder="Image Location">
+				<input id='lat' class='formBar' placeholder="Latitude">
+				<input id='lon' class='formBar' placeholder="Longitude">
+
+				<button class='submit'>Submit</button>
+
+			</div>
+
+		</div>
+
+	</div>
 
 
 	<script type="text/javascript" src="devScripts.js"></script>
