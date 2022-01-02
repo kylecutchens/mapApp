@@ -95,6 +95,7 @@
 		?>
 
 		<input type='text' style='z-index: 20;' class='filterBar textInput' id='filterbar' data='filterDisplay' placeholder='Search for buildings here'>
+		<div class='display' id='filterDisplay'></div>
 
 		<div style="display: none" id='totalCoords'><?php echo json_encode(utf8ize($r)); ?></div>
 	</header>
