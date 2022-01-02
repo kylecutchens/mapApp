@@ -2,7 +2,9 @@
 
 //code for putting up/taking down markers on the fly
 
-    $con = new mysqli('localhost', 'root', 'xXdBLnejWq3h9s', 'mapApp');
+    include "db.php";
+
+    global $con;
     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
     $input = $_POST['input'];
