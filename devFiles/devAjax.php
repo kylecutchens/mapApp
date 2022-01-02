@@ -28,7 +28,7 @@
             case 'insert':
                 
                 $selectQuery = $con -> query(
-                    "INSERT INTO `coordinatesTest` (`bname`, `bcode`, `description`, `image`, `lat`, `lon`, `indx`) VALUES ('$name', '$code', '$description', '$image', '$lat', '$lon', '$maxIndx');"); 
+                    "INSERT INTO `coordinatesTest` (`bname`, `bcode`, `description`, `image`, `lat`, `lon`, `indx`) VALUES ($name, $code, $description, $image, $lat, $lon, $maxIndx);"); 
                 if($selectQuery){
                    echo "New Record Created Successfully";
                 }
