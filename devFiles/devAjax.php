@@ -33,7 +33,8 @@
                    echo "New Record Created Successfully";
                 }
                 else{
-                    echo 'Query Failed: ' .  mysqli_error($con);
+                   die; 
+                   echo 'Query Failed: ' .  mysqli_error($con);
                 }
                 break;
 /*
