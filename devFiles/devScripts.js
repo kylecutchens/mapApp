@@ -281,9 +281,8 @@ $(document).ready(function () {
         let image = $('#image').attr('value');
         let lat = $('#lat').attr('value');
         let lon = $('#lon').attr('value');
-        let indx = coordsArr.length;
 
-        console.log(name, bcode, description, image, lat, lon, indx);
+        console.log(name, bcode, description, image, lat, lon);
 
 
         if (!name || !bcode) {
@@ -302,7 +301,6 @@ $(document).ready(function () {
                     image: image,
                     lat: lat,
                     lon: lon,
-                    indx: indx
                 },
                 success: function (result) { console.log(result) },
                 error: function (result) { console.log(result) }
