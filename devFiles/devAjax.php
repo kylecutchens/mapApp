@@ -29,7 +29,7 @@
                        
             case 'insert':
                 
-               $selectQuery = $con -> query("INSERT INTO `coordinatesTest` (`bname`, `bcode`, `description`, `image`, `lat`, `lon`, `indx`) VALUES ('$name', '$code', '$description', '$image', '$lat', '$lon', '$maxIndx');"); 
+               $selectQuery = $con -> query("INSERT INTO `coordinatesTest` (`bname`, `bcode`, `description`, `image`, `lat`, `lon`, `indx`) $('$name', '$code', '$description', '$image', '$lat', '$lon', '$maxIndx');"); 
         
                 if($selectQuery){
                    echo "New Record Created Successfully ";
@@ -40,10 +40,12 @@
                 break;
 
             case 'edit':
+                
                 $editQuery = $con -> query(
-                    "UPDATE coordinatesTest 
-                     SET bname = '$name' bcode = '$code' description = '$description' image = '$image' lat = '$lat' lon = '$lon'
-                     WHERE bcode = '$bcode'");
+                    "UPDATE `coordinatestest` 
+                    SET `bname`='[$name]',`bcode`='[$code]',`description`='[$description]',`image`='[$image]',`lat`='[$lat]',`lon`='[$lon]' 
+                    WHERE bcode = '[$bcode]'");
+
                 if($editQuery){
                    echo "Record Updated Successfully";
                 }
