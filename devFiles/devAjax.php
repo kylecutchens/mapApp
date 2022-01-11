@@ -43,7 +43,7 @@
                 $editQuery = $con -> query(
                     "UPDATE coordinatesTest 
                      SET bname = '$name' bcode = '$code' description = '$description' image = '$image' lat = '$lat' lon = '$lon'
-                     WHERE bcode = $bcode");
+                     WHERE bcode = '$bcode'");
                 if($editQuery){
                    echo "Record Updated Successfully";
                 }
